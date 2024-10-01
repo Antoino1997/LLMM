@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book_menu>
+<book>
+    <name>El niño con el pijama de rayas</name>
+    <price>10,40€</price>
+    <description>
+   La acción se narra desde la óptica de Bruno, hijo de un oficial de la Schutzstaffel que se muda junto a su familia a Auschwitz, el campo de concentración, en inglés mencionado como Out-With. Bruno traba amistad con un niño judío llamado Shmuel que vive al otro lado de una reja y que, como otras personas en ese lugar, viste un «pijama de rayas».
+   </description>
+    <paginas>224</paginas>
+</book>
+<book>
+    <name>Harry Potter y la piedra filosofal</name>
+    <price>16,10€</price>
+    <description>
+    «Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H.»
+	Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una aventura increíble!
+    </description>
+    <paginas>256</paginas>
+</book>
+</book_menu>
