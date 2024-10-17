@@ -9,3 +9,7 @@ Ejercicio | Descripción
 [Ejercicio2](tema1/ejercicio2.xml) | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio3](/tema1/ejercicio3.html) | ¿Qué es SVG? Busca un ejemplo.
 [Ejercicio4](/tema1/ejercicio4.html) | ¿Qué es markdown? Crea una cuenta en Github, si no la tienes ya. A continuación crea un repositorio nuevo llamado “prueba” que incluya una página “README.md”. Utiliza markdown para que incluya varias cabeceras, texto, una lista, un gráfico y una tabla.
+## Tema 2
+Ejercicio | Descripción
+----------|------------
+[Ejercicio1](/tema2/ejercicio1.html) | Crea una página con el texto facilitado e incluye las etiquetas necesarias.
