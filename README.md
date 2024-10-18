@@ -2,13 +2,13 @@
 
 Esto es un repositorio que contiene las actividades de LLMM de ASIR
 
-## Tema 1 - HTML
+## Tema 1 - Inicio HTML
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](/tema1/ejercicio1.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
 [Ejercicio2](tema1/ejercicio2.xml) | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio3](/tema1/ejercicio3.html) | ¿Qué es SVG? Busca un ejemplo.
-## Tema 2
+## Tema 1 - Ejercicios HTML
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](/tema1ejercicios/ejercicio1.html) | Crea una página con el texto facilitado e incluye las etiquetas necesarias.
