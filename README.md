@@ -16,3 +16,4 @@ Ejercicio | Descripción
 [Ejercicio3](/tema2/ejercicio3.html) | Usa el texto mostrado y dale el formato siguiendo las indicaciones.
 [Ejercicio4](/tema2/ejercicio4.html) | Crea una página html que muestre el siguiente aspecto.
 [Ejercicio5](/tema2/ejercicio5.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
+[Ejercicio6](/tema2/ejercicio6.html) | Modifica la página anterior para incluir distintos formatos de texto.
