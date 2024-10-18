@@ -8,8 +8,11 @@ Ejercicio | Descripción
 [Ejercicio1](/tema1/ejercicio1.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
 [Ejercicio2](tema1/ejercicio2.xml) | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio3](/tema1/ejercicio3.html) | ¿Qué es SVG? Busca un ejemplo.
-[Ejercicio4](/tema1/ejercicio4.html) | ¿Qué es markdown? Crea una cuenta en Github, si no la tienes ya. A continuación crea un repositorio nuevo llamado “prueba” que incluya una página “README.md”. Utiliza markdown para que incluya varias cabeceras, texto, una lista, un gráfico y una tabla.
 ## Tema 2
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](/tema2/ejercicio1.html) | Crea una página con el texto facilitado e incluye las etiquetas necesarias.
+[Ejercicio2](/tema2/ejercicio2.html) | Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto. La página debe presentar el aspecto mostrado a continuación.
+[Ejercicio3](/tema2/ejercicio3.html) | Usa el texto mostrado y dale el formato siguiendo las indicaciones.
+[Ejercicio4](/tema2/ejercicio4.html) | Crea una página html que muestre el siguiente aspecto.
+[Ejercicio5](/tema2/ejercicio5.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
