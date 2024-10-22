@@ -28,3 +28,11 @@ Ejercicio | Descripción
 [Ejercicio15](tema1ejercicios/ejercicio15.html) | Crea la tabla mostrada a continuación.
 [Ejercicio16](tema1ejercicios/ejercicio16.html) | Muestra tu horario del instituto. Si tienes la misma asignatura durante 2 o 3 horas seguidas, entonces debes combinarlo en una celda. El recreo debe mostrarse en una fila.
 [Ejercicio17](tema1ejercicios/ejercicio17/ejercicio17.html) | Muestre la siguiente tabla. Utilice celdas de encabezado cuando sea necesario y todos los atributos que necesite.
+[Ejercicio19](tema1ejercicios/ejercicio19.html) | Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto. A continuación agrega una imagen con posicionamiento flotante a derecha junto a un párrafo con texto.
+[Ejercicio22](tema1ejercicios/ejercicio22/ejercicio22.html) | Crea un favicon e inclúyelo en una página web.
+[Ejercicio23](tema1ejercicios/ejercicio23.html) | Crea una página que incluya una barra de menús: “html css javascript Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior. La anchura del iFrame será el 90% de la página e incluirá un borde de 1px.
+[Ejercicio24](tema1ejercicios/ejercicio24/ejercicio24.html) | Muestra el siguiente formulario HTML.
+[Ejercicio26](tema1ejercicios/ejercicio26/ejercicio26.html) | Crea una página con un video de tu elección cómo el ejemplo mostrado en w3schools.
+[Ejercicio26Botones](tema1ejercicios/ejercicio26/ejercicio26botones.html) | Añade otro ejemplo con los botones de control tal cómo aparece en el ejemplo del final del mismo artículo.
+[Ejercicio27](tema1ejercicios/ejercicio27/ejercicio27.html) | Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en w3schools.
+[Ejercicio28](tema1ejercicios/ejercicio28.html) | Crea una página con un video incrustado de Youtube de tu elección cómo el ejemplo mostrado en w3schools.
