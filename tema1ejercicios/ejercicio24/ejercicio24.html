@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 24</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p><strong>Rellena tu CV</strong></p>
+        <form action="action_page.php" method="get">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" size="30"><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" size="80"><br>
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" id="contraseña" name="contraseña" size="10"><br>
+            <label for="DNI">DNI</label><br>
+            <input type="text" id="DNI" name="DNI" size="9"><br>
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" id="Hombre" name="sexo" value="Hombre">
+            <label for="Hombre">Hombre</label><br>
+            <input type="radio" id="Mujer" name="sexo" value="Mujer">
+            <label for="Mujer">Mujer</label><br><br>
+            <label for="foto">Incluir mi foto</label>
+            <input type="file" id="foto" name="foto"><br><br>
+            <input type="checkbox" id="boletin" name="boletin" value="boletin" checked>
+            <label for="boletin">Suscribirme al boletín de novedades</label><br><br>
+            <input type="submit" value="Guardar cambios">
+            <input type="reset" value="Borrar los datos introducidos">
+        </form>
+    </body>
+</html>

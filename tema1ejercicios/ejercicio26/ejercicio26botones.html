@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 26</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="text-align: center;">
+        <button onclick="iniciarpausar()">Iniciar/Pausar</button>
+        <button onclick="hacergrande()">Grande</button>
+        <button onclick="hacerpequeño()">Pequeño</button>
+        <button onclick="normal()">Normal</button><br><br>
+        <video id="rana" width="450" controls>
+            <source src="rana.mp4" type="video/mp4">
+            Tu navegador no soporta la tag de vídeo.
+        </video>
+        </div>
+        <script>
+            var miVideo = document.getElementById("rana");
+
+            function iniciarpausar() {
+                if (miVideo.paused)
+                miVideo.play();
+                else
+                miVideo.pause();
+            }
+
+            function hacergrande() {
+                miVideo.width = 900;
+            }
+
+            function hacerpequeño() {
+                miVideo.width = 100;
+            }
+
+            function normal() {
+                miVideo.width = 450
+            }
+        </script>
+    </body>
+</html>
