@@ -18,7 +18,7 @@ Ejercicio | Descripción
 [Ejercicio5](/tema1ejercicios/ejercicio5.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
 [Ejercicio6](/tema1ejercicios/ejercicio6.html) | Modifica la página anterior para incluir distintos formatos de texto.
 [Ejercicio7](/tema1ejercicios/ejercicio7.html) | Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones.
-[Ejercicio8](/tema1ejercicios/ejercicio8/indice.html) | Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo).
+[Ejercicio8](/tema1ejercicios/ejercicio8/index.html) | Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo).
 [Ejercicio9](/tema1ejercicios/ejercicio9/index.html) | Crea un página html como la mostrada a continuación.
 [Ejercicio10](tema1ejercicios/ejercicio10.html) | Escribe una página HTML con la siguiente lista anidada de dos niveles.
 [Ejercicio11](tema1ejercicios/ejercicio11.html) | Añade los siguientes objetos.
