@@ -37,4 +37,10 @@ Ejercicio | Descripción
 [Ejercicio27](tema1ejercicios/ejercicio27/ejercicio27.html) | Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en w3schools.
 [Ejercicio28](tema1ejercicios/ejercicio28.html) | Crea una página con un video incrustado de Youtube de tu elección cómo el ejemplo mostrado en w3schools.
 ## Página Web
-[Index](páginaWeb/index.html)
+Página | Descripción
+----------|------------
+[Index](páginaWeb/index.html) | Página principal del trabajo trimestral.
+[HTML](páginaWeb/html.html) | Página sobre HTML.
+[CSS](páginaWeb/css.html) | Página sobre CSS.
+[SVG](páginaWeb/svg.html) | Página sobre SVG.
+[Bibliografía](páginaWeb/bibliography.html) | Página que contiene todo lo relacionado con el material usado en la creación del contenido del trabajo trimestral.
