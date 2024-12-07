@@ -1,0 +1,400 @@
+/* Todas las páginas */
+body{
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #202122;
+    font-family: sans-serif;
+    height: auto;
+    min-width: 800px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: #101418;
+    border: 2px solid white;
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #101418;
+    border-collapse: collapse;
+    color: white;
+}
+.nav a.home{
+    border-right: 2px solid white;
+}
+.nav a.bibliography{
+    border-left: 2px solid white;
+    margin-left: auto;
+}
+.nav a.navbarcontent{
+    border-right: 2px solid white;
+}
+.nav a:not(.active):hover{
+    background-color: darkslateblue;
+    color: white;
+}
+.nav a.active{
+    background-color: darkorange;
+    color: white;
+}
+div.indextitle{
+    text-align: center;
+    background-color: #101418;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.indextitle h1{
+    margin: 0;
+    border-bottom: 2px dashed white;
+    color: white;
+}
+.indextitle p{
+    border-width: 0 2px 2px 2px;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    color: white;
+}
+.indexcontainer{
+    display: flex;
+    justify-content: center;
+}
+.languagecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    height: 450px;
+    overflow: auto;
+    border: 2px solid white;
+    margin: 0.1%;
+    background-color: #101418;
+    color: white;
+}
+div.languagecontainer h2{
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.languagecontainer p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+div.languagecontainer a{
+    transition: margin-bottom 0.5s;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+div.languagecontainer a:hover{
+    margin-bottom: 35px;
+}
+div.footer{
+    text-align: center;
+    margin-top: 7.5%;
+}
+
+/* Página HTML Y CSS */
+
+#sidebarWrap{
+    position: sticky;
+    overflow: hidden;
+    top: 10px;
+    min-width: 240px;
+    max-width: 250px;
+    height: auto;
+    margin: 0 10px 0 20px;
+    padding: 10px;
+}
+#sidebarcontainer{
+    display: flex;
+    flex-direction: column;
+}
+#sidebarcontainer a{
+    text-decoration: none;
+    color: #6a60b0;
+    display: block;
+    padding-bottom: 10px;
+}
+#sidebarcontainer .icon{
+    display: none;
+}
+#sidebarcontainer a.sidebaractive{
+    color: white;
+    font-weight: bold;
+}
+#sidebarcontainer a.subsidebaractive{
+    color: white;
+    font-weight: bold;
+}
+#sidebarcontainer p{
+    margin-top: 20px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+.subsidebar{
+    margin-left: 20px;
+}
+@media screen and (max-width: 1000px) {
+    #sidebarWrap{
+        min-width: 0;
+        transition: 200ms ease-in-out;
+    }
+    #sidebarWrap a:not(:first-child), #sidebarWrap p, #sidebarWrap input{
+        display: none;
+    }
+    #sidebarWrap .icon{
+        width: 100%;
+        display: flex;
+        align-self: center;
+        padding: 5px;
+    }
+    svg.menu{
+        transition: 150ms ease-in-out;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #sidebarWrap.responsive{
+        min-width: 240px;
+        transition: 200ms ease-in-out;
+    }
+    #sidebarWrap.responsive{
+        position: sticky;
+    }
+    #sidebarWrap.responsive a.icon{
+        width: 100%;
+        display: block;
+        text-align: center;
+        align-self: flex-start;
+        padding: 5px;
+
+    }
+    #sidebarWrap.responsive a, #sidebarWrap.responsive p, #sidebarWrap.responsive input {
+        display: block;
+    }
+    #sidebarWrap.responsive p{
+        padding-top: 5px;
+    }
+    .responsive svg.menu{
+        rotate: 90deg;
+        transition: 100ms ease-in-out;
+    }
+}
+.body{
+    width: 98%;
+    margin: 50px auto auto auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #101418;
+    color: white;
+}
+.content{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+.content p{
+    margin-right: 40%;
+    text-align: justify;
+    line-height: 1.75;
+    padding-right: 50px;
+}
+.content table p.bigp{
+    justify-self: center;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+.content table p.smallp{
+    justify-self: center;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: small;
+}
+.section{
+    border-bottom: 1px solid white;
+    margin-right: 35%;
+}
+.section h1{
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.shadowcss .section h1,.shadowcss .subsection h2, .blueshadow{
+    text-shadow: 0px 0px 10px blue;
+}
+.shadowhtml .section h1,.shadowhtml .subsection h2{
+    text-shadow: 0px 0px 10px orange;
+}
+.shadowsvg .section h1,.shadowsvg .subsection h2, .yellowshadow{
+    text-shadow: 0px 0px 10px yellow;
+}
+.subsection h2{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+.blueshadow, .yellowshadow{
+    padding: 0 !important;
+    border-bottom: 1px dashed white;
+    width: fit-content;
+}
+.subsection h2{
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.examplezone{
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.examplezone2{
+    font-weight: bold;
+    margin: 0;
+}
+.flexcontent{
+    display: flex;
+}
+.flexcontent p{
+    margin-right: 10%;
+}
+.tablecontent{
+    margin-top: 20px;
+    margin-right: 14%;
+    margin-left: 5%;
+}
+.tablecontent table{
+    border: 1px solid white;
+    background-color: #202122;
+    text-align: center;
+    padding: 0;
+}
+.tablecontent table img.specialimg{
+    background-color: grey;
+}
+table.selectortable{
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+.content ul.father{
+    padding-right: 14%;
+    text-align: left;
+    line-height: 1.75;
+}
+.content ul.fathernoflex{
+    padding-right: 47%;
+    text-align: left;
+    line-height: 1.75;
+}
+table.selectortable tr.selectortitle td{
+    background-color: #27292d;
+    border: 1px solid #72777d;
+    text-align: center;
+    padding: 20px;
+}
+table.selectortable tr.selectortitle td.smalltd{
+    width: 50px;
+}
+table.selectortable tr:not(.selectortitle) td{
+    background-color: #202122;
+    border: 1px solid #72777d;
+    padding: 5px;
+}
+table.selectortable code{
+    background-color: inherit;
+    border: 1px solid #72777d;
+}
+table.tableespecificidad{
+    max-width: fit-content;
+}
+.tabletitle{
+    text-align: center !important;
+    width: 50%;
+}
+.tablesvg .imgsvg td{
+    background-color: #202122;
+    border: 1px solid #54595d;
+    padding: 10px 20px 10px 20px;
+}
+.tablesvg{
+    border-spacing: 10px;
+}
+.tablesvg .textsvg td{
+    vertical-align: text-top;
+    font-size: 14px;
+    width: 120px;
+    padding-top: 10px;
+}
+.tablesvg img{
+    background-color: white;
+}
+.linksw3school{
+    text-decoration: none;
+    color: #88a3e8;
+}
+code{
+    border-radius: 2px;
+    padding: 1px 4px;
+    background-color: #202122;
+    border: 1px solid #72777d;
+    font-family: monospace;
+    font-size: large;
+    color: white;
+}
+p.examplecode{
+    max-width: 100%;
+    overflow-x: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+    border: 1px solid white;
+    background-color: #202122;
+    color: white;
+    padding: 15px;
+}
+span.tier1{
+    margin-left: 25px;
+}
+span.tier2{
+    margin-left: 50px;
+}
+span.tier3{
+    margin-left: 75px;
+}
+span.darkgreen{
+    color: #959077;
+}
+span.green{
+    color: #a6e22e;
+}
+span.red{
+    color: #ff4689;
+}
+span.yellow{
+    color: #e6db74;
+}
+span.lightblue{
+    color: #66d9ef;
+}
+span.purple{
+    color: #ae81ff;
+}

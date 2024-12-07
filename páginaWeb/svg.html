@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SVG - Antoniopedia, la enciclopedia de pago</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css.css">
+        <script defer src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="imagenes/svg/favicon.png">
+    </head>
+    <body class="shadowsvg">
+        <div class="nav">
+            <a class="home" href="index.html">INICIO</a>
+            <a class="navbarcontent" href="html.html">HTML</a>
+            <a class="navbarcontent" href="css.html">CSS</a>
+            <a class="navbarcontent active" href="svg.html">SVG</a>
+            <a class="bibliography" href="bibliografia.html">BIBLIOGRAFÍA</a>
+        </div>
+        <div class="body">
+            <div id="sidebarWrap" class="sidebarWrap">
+                <div id="sidebarcontainer" class="sidebarcontainer">
+                    <a href="javascript:void(0);" class="icon" onclick="botonresponsive()"><svg class="menu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+                    <p>Contenidos</p>
+                    <a class="# sidebar sidebaractive default" href="#">Inicio</a>
+                    <a class="Origenes subsidebar" href="#Origenes">Origenes</a>
+                    <a class="Contenido_general sidebar" href="#Contenido_general">Contenido general</a>
+                    <a class="Ventajas_de_SVG subsidebar" href="#Ventajas_de_SVG">Ventajas de SVG</a>
+                    <a class="SVG_usa_formato_XML subsidebar" href="#SVG_usa_formato_XML">SVG usa formato XML</a>
+                    <a class="Estructura_basica_de_un_SVG subsidebar" href="#Estructura_basica_de_un_SVG">Estructura básica de un SVG</a>
+                    <a class="Tipos_de_objetos_graficos subsidebar" href="#Tipos_de_objetos_graficos">Tipos de objetos gráficos</a>
+                    <a class="Elementos_geometricos_SVG subsidebar" href="#Elementos_geometricos_SVG">Elementos geométricos SVG</a>
+                    <a class="Animaciones subsidebar" href="#Animaciones">Animaciones</a>
+                    <a class="Navegadores_que_soportan_SVG sidebar" href="#Navegadores_que_soportan_SVG">Navegadores que soportan SVG</a>
+                    <a class="Software_de_edicion sidebar" href="#Software_de_edicion">Software de edición</a>
+                    <input type="button" value="Descarga esta página como PDF" onclick="printPage()">
+                </div>
+            </div>
+            <div class="content">
+                <div id="#" class="sidebarselector">
+                    <div class="section">
+                        <h1><a name="#">Gráficos vectoriales escalables</a></h1>
+                    </div>
+                    <div class="flexcontent">
+                        <div>
+                            <p>Los gráficos vectoriales escalables o gráficos vectoriales redimensionables (del inglés: 
+                            <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" class="linksw3school">Scalable Vector 
+                            Graphics (SVG)</a> es un formato de gráficos vectoriales bidimensionales, tanto estáticos como animados, en 
+                            formato de lenguaje de marcado extensible XML (Extensible Markup Language), es decir que se compone por código 
+                            y cuya especificación es un estándar abierto desarrollado por el W3C desde 1999. A diferencia de aquellos 
+                            gráficos codificados en WebP, JPG, PNG, o TIFF (Rasters), los SVG pueden ser interactivos y dinámicos y esto 
+                            se debe a que no se componen por mapa de bits, sino que están compuestos por vectores, que son instrucciones 
+                            matemáticas que se le dan al navegador o programas de ediciones de estos gráficos vectoriales, para escalarlos 
+                            de manera infinita y sin perder resolución o calidad en el gráfico.</p>
+                            <p>Las imágenes SVG y sus comportamientos se definen en archivos de texto XML. Esto significa que se pueden 
+                            buscar, indexar, codificar y comprimir. Como archivos XML, las imágenes SVG se pueden crear y editar con 
+                            cualquier editor de texto o comúnmente editor de código, así como con software de dibujo.</p>
+                            <p>El SVG es un lenguaje usado para dibujar y representar gráficos, imágenes y logotipos, o sea que 
+                            son gráficos que pueden manipularse con Css y JavaScript. Estos gráficos fueron creados para que se puedan 
+                            representar o renderizar en la web y en los navegadores. Además, este lenguaje de marcado se convirtió en 
+                            una recomendación del W3C en septiembre de 2001, por lo que ya ha sido incluido de forma nativa en el navegador 
+                            web del W3C Amaya. Las versiones 1.5 y posteriores de Mozilla Firefox soportan gráficos hechos con SVG, así 
+                            como el navegador Opera, que desde su versión 8 ha implementado SVG 1.1 Tiny en su núcleo. Navegadores como 
+                            Google Chrome, Safari e Internet Explorer 9 también son capaces de mostrar imágenes en formato SVG sin necesidad 
+                            de complementos externos. Otros navegadores web como versiones anteriores a la 9 de Internet Explorer necesitan 
+                            un conector o plug-in.</p>
+                            <div id="Origenes" class="sidebarsubselector">
+                                <div class="subsection">
+                                    <h2><a name="Origenes">Origenes</a></h2>
+                                </div>
+                                <p>En 1996, <a href="https://en.wikipedia.org/wiki/Chris_Lilley_(computer_scientist)" target="_blank" class="linksw3school">Chris Liley</a> redactó para el W3C un documento con directrices sobre los posibles requerimientos 
+                                para integrar un formato estándar de archivo para describir elementos gráficos vectoriales. Para 1998 varias 
+                                empresas habían turnado propuestas a este organismo, de las cuales dos principalmente sirvieron como base 
+                                para los borradores que constituirían el SVG: el VML desarrollado por Microsoft para su formato de documentos 
+                                RTF y el PGML desarrollado entonces por Adobe en coordinación con IBM, Netscape y SUN. Tras la publicación del 
+                                estándar SVG, Microsoft disoció el VML arguyendo que era un producto ya en el mercado, mientras que Adobe 
+                                celebró abiertamente estandarización del PGML; el soporte para SVG fue integrado a distintos productos de 
+                                software de esta última compañía como Adobe Illustrator y el visualizador de archivos ASV.</p>
+                            </div>
+                        </div>
+                        <div class="tablecontent">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="bigp">Gráficos vectoriales escalables</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="Visita la página de w3schools sobre SVG"><img src="imagenes/svg/svg.png"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="specialimg" src="imagenes/svg/bitmap.png" width="250px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="smallp">La imagen ilustra una diferencia entre mapas de bits e imágenes vectoriales. La imagen 
+                                        vectorial puede ser redimensionada, tanto como se requiera, sin pérdida de calidad de imagen. Esto no 
+                                        es así con un mapa de bits.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="Contenido_general" class="sidebarselector">
+                    <div class="section">
+                        <h1><a name="Contenido_general">Contenido general</a></h1>
+                    </div>
+                </div>
+                <div id="Ventajas_de_SVG" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="Ventajas_de_SVG">Ventajas de SVG</a></h2>
+                    </div>
+                    <div>
+                        <p>Las ventajas de usar <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" class="linksw3school">el formato SVG</a> sobre otros formatos de imagen son que estas se pueden:</p>
+                        <ul class="fathernoflex">
+                            <li>Crear y editar con cualquier editor de texto.</li>
+                            <li>Buscar, indexar, codificar y comprimir.</li>
+                            <li>Imprimir con alta calidad en cualquier resolución.</li>
+                            <li>Pueden ser cambiadas de tamaño sin perder calidad de imagen o gráfico.</li>
+                            <li>Son escalables.</li>
+                            <li>SVG es un estándar abierto.</li>
+                            <li>Los archivos SVG están compuestos por código XML puro.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="SVG_usa_formato_XML" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="SVG_usa_formato_XML">SVG usa formato XML</a></h2>
+                    </div>
+                    <div>
+                        <p>Para poder entender un poco SVG desde el código se debe tener un conocimiento básico de HTML y XML.</p>
+                        <p>Por lo tanto, debe llevar:</p>
+                        <ul class="fathernoflex">
+                            <li>Etiquetas de apertura y cierre (Al igual que HTML).</li>
+                            <li>Atributos.</li>
+                            <li>Como dialecto XML, requiere que se defina el namespace, de lo contrario el navegador no lo interpretará correctamente.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Estructura_basica_de_un_SVG" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="Estructura_basica_de_un_SVG">Estructura básica de un SVG</a></h2>
+                    </div>
+                    <div>
+                        <p>El código SVG debe llevar:</p>
+                        <ul class="fathernoflex">
+                            <li>viewBox</li>
+                            <li>xmlnx</li>
+                        </ul>
+                        <p class="examplecode">
+                            <span class="red">&lt;svg</span> <span class="green">viewBox=</span><span class="yellow">"0 0 20 20"</span> <span class="green">xmlns=</span><span class="yellow">"http://www.w3.org/2000/svg"</span> <span class="red">&gt;</span><br>
+                                <span class="tier1 red">&lt;title&gt;</span>Estructura básica del SVG<span class="red">&lt;/title&gt;</span><br>
+                                <span class="tier1 red">&lt;style&gt;</span><br>
+                                    <span class="tier2">.circle {fill: blue}</span><br>
+                                <span class="tier1 red">&lt;/style&gt;</span><br>
+                                <span class="tier1 red">&lt;circle</span> <span class="green">class=</span><span class="yellow">"circle"</span> <span class="green">cx=</span><span class="yellow">"5"</span> <span class="green">cy=</span> <span class="yellow">"5"</span> <span class="green">r=</span><span class="yellow">"5"</span> <span class="red">/&gt;</span><br>
+                            <span class="red">&lt;/svg&gt;</span>
+                        </p>
+                    </div>
+                </div>
+                <div id="Tipos_de_objetos_graficos" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="Tipos_de_objetos_graficos">Tipos de objetos gráficos</a></h2>
+                    </div>
+                    <p>La especificación de SVG permite tres tipos de objetos gráficos:</p>
+                    <ul class="fathernoflex">
+                        <li>Elementos geométricos vectoriales, como los caminos o trayectorias consistentes en rectas y curvas, y áreas limitadas por ellos.</li>
+                        <li>Imágenes de mapa de bits/digitales.</li>
+                        <li>Texto.</li>
+                    </ul>
+                    <p>Los objetos gráficos pueden ser agrupados, transformados y compuestos en objetos previamente renderizados, y pueden recibir un estilo común. El texto puede estar en cualquier 
+                    espacio de nombres XML admitido por la aplicación, lo que mejora la posibilidad de búsqueda y la accesibilidad de los gráficos SVG. El conjunto de características incluye las 
+                    transformaciones anidadas, las trayectorias de recorte, las máscaras alfa, los filtros de efectos, las plantillas de objetos y la extensibilidad.</p>
+                    <p>El dibujado de los SVG puede ser dinámico e interactivo. El modelo Document Object Model (DOM) para SVG, que incluye el DOM XML completo, permite animaciones de 
+                    gráficos vectoriales sencillas y eficientes mediante ECMAScript o SMIL. Un conjunto amplio de manejadores de eventos, como "onMouseOver" y "onClick", puede ser asignado a 
+                    cualquier objeto SVG. Debido a su compatibilidad y relación con otros estándares de Web, características como el scripting pueden ser aplicadas a elementos SVG y a otros 
+                    elementos XML desde distintos espacios de nombre XML simultáneamente y dentro de la misma página web. Un ejemplo extremo de esto es un juego completo de realizado como un objeto SVG.</p>
+                    <p>Si el espacio de almacenamiento es un problema, las imágenes SVG pueden ser guardadas como archivos comprimidos con gzip, en cuyo caso pasan a ser imágenes SVGZ. Debido a 
+                    la verbosidad del XML, este tiende a comprimirse muy bien, y estos ficheros pueden ser mucho más pequeños.</p>
+                    <p>El fichero o archivo vectorizado original (SVG) es más pequeño que la versión de mapa de bits exceptuando cualquier programa que fuerza a una vectorialización, ya que vectorializa 
+                    detalles en general de poca utilidad, aproximables por otros métodos o invisibles, a los cuales inserta información oculta y firmas de todo tipo.</p>
+                    <p class="examplezone2 yellowshadow">Complejidad</p>
+                    <p>Por ser un lenguaje vectorial, SVG permite crear imágenes complejas.</p>
+                </div>
+                <div id="Elementos_geometricos_SVG" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="Elementos_geometricos_SVG">Elementos geométricos SVG</a></h2>
+                    </div>
+                    <p>Los elementos geométricos son objetos provistos de atributos genéricos básicos y optativos o por defecto.</p>
+                    <p>Todos los objetos se encuentran enmarcados en una ventana, con un ancho (width) y un alto (height) determinados con números enteros. Esta ventana posee un sistema de coordenadas 
+                    cuyo origen está situado en la parte superior izquierda y en el cual los valores positivos de x y y se orientan a la derecha y hacia abajo respectivamente. Cada valor está determinado 
+                    con números enteros o con un porcentaje respecto del área de trabajo.</p>
+                    <p>Un sistema de referencia coordenado o un objeto determinado en el estándar se puede modificar mediante transformaciones. El ejemplo que sigue muestra dos transformaciones: 
+                    una de posición (traslado) del origen de coordenadas, mediante la orden "translate" y otra de escala, usando la orden "scale".</p>
+                    <p class="examplecode">
+                        <span class="red">&lt;svg</span> <span class="green">width=</span><span class="yellow">"200"</span> <span class="green">height=</span><span class="yellow">"200"</span> <span class="green">xmlns=</span><span class="yellow">"http://www.w3.org/2000/svg"</span> <span class="green">xmlns:xlink=</span><span class="yellow">"http://www.w3.org/1999/xlink"</span><span class="red">&gt;</span><br>
+                            <span class="tier1 red">&lt;g</span> <span class="green">transform=</span><span class="yellow">"translate(50,150)"</span><span class="red">&gt;</span><br>
+                                <span class="tier2 red">&lt;g</span> <span class="green">transform=</span><span class="yellow">"scale(1,-1)"</span><span class="red">&gt;</span><br>
+                                    <span class="tier3">. . .</span><br>
+                                <span class="tier2 red">&lt;/g&gt;</span><br>
+                            <span class="tier1 red">&lt;/g&gt;</span><br>
+                        <span class="red">&lt;/svg&gt;</span>
+                    </p>
+                    <p class="examplezone2 yellowshadow">Atributos</p>
+                    <p>Todos los objetos comparten algunos atributos genéricos:</p>
+                    <ul class="fathernoflex">
+                        <li>Todo elemento visual de una figura tiene un color con 4 posibles expresiones con el color negro por defecto:</li>
+                        <ul>
+                            <li>Nominalmente: red, yellow, blue, aqua, salmon, tomato, orange, lightgreen, etc.</li>
+                            <li>Con valores hexadecimales: <code>#ff0000</code>, <code>#ffff00</code>, etc.</li>
+                            <li>Con valores hexadecimales resumidos <code>#abc</code>=<code>#aabbcc</code>: <code>#f00</code>, <code>#ff0</code>, etc.</li>
+                            <li>Funcionales: enteros como <code>rgb(255,32,50)</code> o porcentuales como <code>rgb(100%,10%,0%)</code>.</li>
+                        </ul>
+                        <li>Toda figura tiene un contorno cuyo grosor y color pueden ser modificados, respectivamente, usando los 
+                        parámetros <code>stroke-width</code> y <code>stroke</code>.</li>
+                        <ul>
+                            <li>Hay tres tipos de uniones de líneas: <code>stroke-linejoin="miter"</code> (para ángulos menores de 30 grados 
+                            se aumenta el valor entero del corrector, stroke-miterlimit="4", en caso contrario se transforma en 
+                            "bevel"), <code>stroke-linejoin="round"</code> y <code>stroke-linejoin="bevel"</code> en la imagen respectivamente.</li>
+                            <img width="250px" height="100px" src="imagenes/svg/stroke-linejoin.png">
+                            <li>Hay tres tipos de extremos de líneas: <code>stroke-linecap="butt"</code>, <code>stroke-linecap="round"</code> 
+                            y <code>stroke-linecap="square"</code> en la imagen respectivamente.</li>
+                            <img width="250px" height="50px" src="imagenes/svg/stroke-linecap.png">
+                            <li>Se puede añadir bordes intermitentes siguiendo el patrón marcado por sucesiones de enteros con stroke-dasharray 
+                            como por ejemplo stroke-dasharray="2,3,5,7,11,13".</li>
+                        </ul>
+                        <li>Casi todas las figuras tienen un relleno que puede ser modificado en color, fill, difuminado o filtrado de distintas formas.</li>
+                        <li>Toda figura tiene una opacidad, opacity, su valor varía entre 0(transparente) y 1(opaco por defecto).</li>
+                    </ul>
+                    <p class="examplezone2 yellowshadow">Líneas</p>
+                    <p>El objeto línea consta básicamente de dos puntos, (x1, y1) y (x2, y2), entre los cuales se dibuja un segmento recto:</p>
+                    <p><code>&lt;line x1="..." y1="..." x2="..." y2="..." ... /&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Rectángulos</p>
+                    <p>El objeto rectángulo consta básicamente de un punto cuya esquina superior izquierda u origen es (x, y), y sus dimensiones 
+                    están representadas por los parámetros height y width:</p>
+                    <p><code>&lt;rect x="..." y="..." height="..." width="..." ... /&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Círculo</p>
+                    <p>El objeto círculo consta de un punto cuyo centro tiene las coordenadas (cx, cy), y su radio es r:</p>
+                    <p><code>&lt;circle r="..." cx="..." cy="..." ... /&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Elipse</p>
+                    <p>El objeto elipse consta de un punto cuyo centro tiene las coordenadas (cx, cy), un radio horizontal, rx, y un radio vertical, ry:</p>
+                    <p><code>&lt;ellipse cx="..." cy="..." rx="..." ry="..." ... /&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Mixtilínea</p>
+                    <p>El objeto mixtilínea consta básicamente de puntos unidos por líneas que pueden cerrar o no un espacio. Estos puntos forman 
+                    cadenas iniciadas con M o m que pueden unirse con otras para formar un todo. El uso de mayúsculas se refiere a valores absolutos 
+                    de coordenadas y de minúsculas para los valores relativos, es decir, considera el último punto dado como el origen de coordenadas.</p>
+                    <p><code>&lt;path d="M ... m ... M ... " /&gt;</code></p>
+                    <p class="examplezone2">Enlaces entre puntos:</p>
+                    <ul class="fathernoflex">
+                        <li>Si después de un punto es usada la orden L o l, los puntos siguientes se unen con segmentos rectos.</li>
+                        <li>Si después de indicar un punto aparece la orden H o V (para coordenadas absolutas) u h o v (para coordenadas 
+                        relativas), ambos puntos se unen con una línea horizontal o vertical manteniendo fija la otra coordenada.</li>
+                        <li>Si después de un punto es usada la orden Q o q, se genera una curva de Bézier cuadrática, entre el primer 
+                        punto y el último mediante un punto de control cuyas coordenadas aparecen después de la orden.</li>
+                        <li>T o t enlaza curvas de Bézier cuadráticas previamente trazadas, sucesivamente calculando cada vez de manera 
+                        automática un punto de control.</li>
+                        <li>Si después de un punto aparece la orden C o c, la terna de puntos siguientes genera una curva de Bézier cúbica 
+                        siendo los dos primeros, los puntos de control de ambos extremos de la curva y el último es el punto final de la 
+                        curva que se une con el primero. S o s enlaza curvas cúbicas sucesivamente, calculándose de manera automática los 
+                        puntos de control.</li>
+                        <li>Si después de un punto aparece A o a, se unirán los puntos extremos, P y Q con una curva elíptica o circular 
+                        según los valores de los radios Rx y Ry respecto de los ejes de la elipse. El valor de U y V cambia la dirección y 
+                        parte visible que presentan respectivamente relativos a P y Q, según sean 1 o 0. El valor de G es una rotación de los 
+                        ejes de la elipse.</li>
+                        <p><code>&lt;path d="MPx,PxaRx,Ry G V U Qx,Qy" /&gt;</code></p>
+                        <li>Para cerrar curvas y trayectorias, se cerrará la cadena de puntos con Z o z independientemente si la orden está en 
+                        mayúscula o no.</li>
+                    </ul>
+                    <p class="examplezone2">Aberturas:</p>
+                    <p>Para generar una abertura en un recinto con interior(fill distinto de "none") se usa una cadena con orientación 
+                    contraria al borde del recinto (hay dos posibles órdenes: el horario y el antihorario), esto generará un recinto cuyo 
+                    interior tendrá una sola orientación, en caso contrario no hay abertura.</p>
+                    <p class="examplezone2 yellowshadow">Texto</p>
+                    <p>Se puede añadir texto, a partir de: un punto base x e y y se configuran las características de la cadena de texto con 
+                    los parámetros: font-family (tipo de letra), font-size (tamaño de letras ) y estilo de letra por font-style (con uno de 
+                    cuatro valores posibles: normal, inherit, oblique o italic):</p>
+                    <p><code>&lt;text x="..." y="..." font-size="..." font-style="..." &gt; ... &lt;/text&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Agrupaciones</p>
+                    <p>Se pueden agrupar objetos para que compartan atributos por defecto y una disposición fija en el espacio para poder 
+                    duplicarlos cómodamente:</p>
+                    <p><code>&lt;g ... &gt;...&lt;/g&gt;</code></p>
+                    <p class="examplezone2 yellowshadow">Duplicados</p>
+                    <p>Para duplicar objetos tanto internos como externos se tiene que incluir en la etiqueta &lt;svg&gt; el siguiente fragmento:</p>
+                    <p><code>&lt;svg xmlns:xlink="http://www.w3.org/1999/xlink" ... &gt; ... &lt;/svg&gt;</code></p>
+                    <p class="examplezone2">Duplicado de objetos svg</p>
+                    <p>Se puede duplicar objetos identificados previamente con id="...", donde el espacio de puntos indica el nombre.</p>
+                    <p><code>&lt;use xlink:href="#..."/&gt;</code></p>
+                    <p class="examplezone2">Enlazado de imágenes</p>
+                    <p>Se pueden añadir o incrustar enlaces a imágenes del tipo *.png, *.jpg o *.svg dentro de un rectángulo de parámetros x, y, width y 
+                    height:</p>
+                    <p><code>&lt;image xlink:href=" ... *.jpg" x="..." y="..." width="..." height="..." /&gt;</code></p>
+                    <p>Esta opción no es soportada por Wikimedia Commons.</p>
+                    <p class="examplezone2 yellowshadow">Recortes</p>
+                    <p>Se pueden recortar objetos mediante rellenos de otros objetos, por ejemplo, un círculo mediante un recinto triangular. En 
+                    el ejemplo que sigue, la orden clipPath con el parámetro "id" identifica el nombre del área a recortar. La orden path 
+                    siguiente con el parámetro clip-rule indica si un punto queda dentro del área de relleno (nonzero) o fuera (evenodd, como en 
+                    el caso presentado). Luego de cerrar la orden con &lt;/clipPath&gt;, la orden siguiente traza un círculo al cual se aplica 
+                    el área recortada con el parámetro clip-path="url(#nombre del área)".</p>
+                    <p class="examplecode">
+                        <span class="red">&lt;clipPath</span> <span class="green">id=</span><span class="yellow">"cortador"</span><span class="red">&gt;</span><br>
+                            <span class="tier1 red">&lt;path</span> <span class="green">fill=</span><span class="yellow">"#0ff"</span> <span class="green">d=</span><span class="yellow">"m119,71l-103,60l120,0"</span> <span class="green">clip-rule=</span><span class="yellow">"evenodd"</span><span class="red">/&gt;</span><br>
+                        <span class="red">&lt;/clipPath&gt;</span><br>
+                        <span class="red">&lt;circle</span> <span class="green">r=</span><span class="yellow">"80"</span> <span class="green">cx=</span><span class="yellow">"12"</span> <span class="green">cy=</span><span class="yellow">"130"</span> <span class="green">stroke=</span><span class="yellow">"#000"</span> <span class="green">fill=</span><span class="yellow">#999</span> <span class="green">clip-path=</span> <span class="yellow">"url(#cortador)"</span><span class="red">/&gt;</span>
+                    </p>
+                    <p class="examplezone2 yellowshadow">Transformaciones</p>
+                    <p>Las transformaciones permiten efectuar semejanzas sobre imágenes mediante la matriz:</p>
+                    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aec4ac7cee7508f9b6809dc2db7502b6b0e35b67" style="vertical-align: -4.5ex; width:50ex; height:10ex; filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(70deg) brightness(108%) contrast(101%);">
+                    <p><code>&lt;g transform="matrix(a,b,c,d,e,f)"&gt; ... &lt;/g&gt;</code></p>
+                    <ul class="fathernoflex">
+                        <li>Traslaciones.</li>
+                    </ul>
+                    <p><code>&lt;g transform="translate(e,f)"&gt; ... &gt;/g&gt;</code></p>
+                    <ul class="fathernoflex">
+                        <li>Rotaciones.</li>
+                    </ul>
+                    <p><code>&lt;g transform="rotate(g)"&gt; ... &lt;/g&gt;</code></p>
+                    <ul class="fathernoflex">
+                        <li>Simetrías.</li>
+                    </ul>
+                    <p><code>&lt;g transform="scale(k,k)"&gt; ... &lt;/g&gt;</code></p>
+                    <ul class="fathernoflex">
+                        <li>Homotecias seguidas de simetrías.</li>
+                        <li>Homotecias seguidas de rotaciones.</li>
+                    </ul>
+                    <table class="tablesvg">
+                        <tr class="imgsvg">
+                            <td><img src="imagenes/svg/homotecia_iterada.png"></td>
+                            <td><img src="imagenes/svg/homotecia_y_simetria_iterada.png"></td>
+                            <td><img src="imagenes/svg/homotecia_y_rotacion_iterada.png"></td>
+                            <td><img src="imagenes/svg/transformaciones_dicotomica.png"></td>
+                        </tr>
+                        <tr class="textsvg">
+                            <td>Iteración de una homotecia.</td>
+                            <td>Iteración de una homotecia seguida de una simetría.</td>
+                            <td>Iteración de una homotecia seguida de una rotación.</td>
+                            <td>Jugando con la alternancia de dos transformaciones</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Animaciones" class="sidebarsubselector">
+                    <div class="subsection">
+                        <h2><a name="Animaciones">Animaciones</a></h2>
+                    </div>
+                    <p>Las animaciones se pueden crear incorporando programación con algún lenguaje que soporte el navegador, como Python o JavaScript.</p>
+                </div>
+                <div id="Navegadores_que_soportan_SVG" class="sidebarselector">
+                    <div class="section">
+                        <h1><a name="Navegadores_que_soportan_SVG">Navegadores que soportan SVG</a></h1>
+                    </div>
+                    <ul class="fathernoflex">
+                        <li><a href="https://es.wikipedia.org/wiki/Mozilla_Firefox" target="_blank">Mozilla Firefox</a>: Implementa SVG en forma nativa desde su versión 1.5. Con el tiempo, fue mejorando el cumplimiento del estándar, pero 
+                        con alto consumo de tiempo de procesador. A partir de la versión 3.5, en Firefox se ha modificado y mejorado el procesamiento de 
+                        archivos SVG.</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Opera_(navegador)" target="_blank">Opera</a>: Al igual que Firefox, también posee una implementación de SVG en forma nativa, pero con poco consumo de tiempo de proceso. 
+                        La versión 9.5 Beta, incorpora la posibilidad de llamar en forma externa a una imagen en formato svg, usando la orden &lt;image&gt; o &lt;use&gt;.</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Internet_Explorer" targer="_blank">Internet Explorer</a>: Aunque tardíamente, Microsoft empezó a dar soporte a este estándar en el navegador Internet Explorer desde 
+                        su novena versión.</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Safari_(navegador)" target="_blank">Apple Safari</a>: Su versión 3.1 (para computadores con sistema operativo Windows o Mac OS X) posee implementación de soporte para 
+                        archivos SVG tanto para imágenes como para texto avanzado.</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Google_Chrome" target="_blank">Google Chrome</a>: Desde su primera versión, Google incorporó implementación de SVG de forma nativa (ya que utiliza WebKit).</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Microsoft_Edge" target="_blank">Microsoft Edge</a>: Soporta el estándar SVG desde la primera versión incluida en la versión Build 10049 de Windows 10.</li>
+                    </ul>
+                </div>
+                <div id="Software_de_edicion" class="sidebarselector">
+                    <div class="section">
+                        <h1><a name="Software_de_edicion">Software de edición</a></h1>
+                    </div>
+                    <p>Actualmente, hay muchos programas de diseño gráfico que lo soportan. Entre los que son software libre está Inkscape. La suite ofimática libre LibreOffice incorpora Draw, programa exclusivo para trabajar con SVG y 
+                    otros archivos gráficos vectoriales. También hay editores en línea que permiten abrir archivos o crearlos, como Method Draw, Vector Paint, Draw SVG y SVGREAL.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
