@@ -43,4 +43,6 @@ Página | Descripción
 [HTML](páginaWeb/html.html) | Página sobre HTML.
 [CSS](páginaWeb/css.html) | Página sobre CSS.
 [SVG](páginaWeb/svg.html) | Página sobre SVG.
-[Bibliografía](páginaWeb/bibliography.html) | Página que contiene todo lo relacionado con el material usado en la creación del contenido del trabajo trimestral.
+[Bibliografía](páginaWeb/bibliografia.html) | Página que contiene todo lo relacionado con el material usado en la creación del contenido del trabajo trimestral.
+[Estilos](páginaWeb/styles.css) | Hoja que contiene todos los estilos css usados en el resto de páginas.
+[Scripts](páginaWeb/script.js) | Hoja que contiene todos los scripts (funciones) usados en el resto de páginas.
