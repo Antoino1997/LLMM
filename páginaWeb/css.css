@@ -362,6 +362,7 @@ code{
 p.examplecode{
     max-width: 100%;
     overflow-x: auto;
+    text-align: left;
     word-wrap: break-word;
     box-sizing: border-box;
     font-family: monospace;
