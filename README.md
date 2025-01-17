@@ -30,6 +30,8 @@ Ejercicio | Descripción
 [Ejercicio17](tema1ejercicios/ejercicio17/ejercicio17.html) | Muestra la siguiente tabla. Utiliza celdas de encabezado cuando sea necesario y todos los atributos que necesite.
 [Ejercicio18](tema1ejercicios/ejercicio18/ejercicio18.html) | Muestra la siguiente tabla. Utiliza celdas de encabezado cuando sea necesario y todos los atributos que necesite.
 [Ejercicio19](tema1ejercicios/ejercicio19/ejercicio19.html) | Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto. A continuación agrega una imagen con posicionamiento flotante a derecha junto a un párrafo con texto.
+[Ejercicio20](tema1ejercicios/ejercicio20/ejercicio20.html) | Usa las imágenes de w3school incluidas al principio del artículo del enlace siguiente y agrégales texto, tal como aparece en el ejemplo final del artículo sobre posicionamiento flotante.
+[Ejercicio21](tema1ejercicios/ejercicio21/ejercicio21.html) | Crea un grupo de imágenes en miniatura. Incluye un enlace a la imagen original en cada una de ellas.
 [Ejercicio22](tema1ejercicios/ejercicio22/ejercicio22.html) | Crea un favicon e inclúyelo en una página web.
 [Ejercicio23](tema1ejercicios/ejercicio23.html) | Crea una página que incluya una barra de menús: “html css javascript Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior. La anchura del iFrame será el 90% de la página e incluirá un borde de 1px.
 [Ejercicio24](tema1ejercicios/ejercicio24/ejercicio24.html) | Muestra el siguiente formulario HTML.
