@@ -6,13 +6,22 @@
 </head>
 <body>   
 <?php
-// Procesar el archivo subido
+// Configurar la carpeta de destino
+$carpetaDestino = "uploads/";
+
+// Verificar si la carpeta existe
+if (!is_dir($carpetaDestino)) {
+    // Si no existe, crearla con permisos 0777 (lectura, escritura y ejecución)
+    mkdir($carpetaDestino, 0777, true);
+}
+
 if (isset($_FILES["foto"])) {
-    // Mover el archivo a la carpeta destino sin validaciones
+    // Procesar el archivo subido
     $nombreArchivo = $_FILES["foto"]["name"];
     $rutaTemporal = $_FILES["foto"]["tmp_name"];
-    $carpetaDestino = "uploads/";
     $rutaDestino = $carpetaDestino . basename($nombreArchivo);
+
+    // Mover el archivo a la carpeta destino
     move_uploaded_file($rutaTemporal, $rutaDestino);
 }
 ?>
