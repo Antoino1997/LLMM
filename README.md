@@ -33,6 +33,7 @@ Ejercicio | Descripción
 [Ejercicio22](tema1ejercicios/ejercicio22/ejercicio22.html) | Crea un favicon e inclúyelo en una página web.
 [Ejercicio23](tema1ejercicios/ejercicio23.html) | Crea una página que incluya una barra de menús: “html css javascript Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior. La anchura del iFrame será el 90% de la página e incluirá un borde de 1px.
 [Ejercicio24](tema1ejercicios/ejercicio24/ejercicio24.html) | Muestra el siguiente formulario HTML.
+[Ejercicio25](tema1ejercicios/ejercicio25/ejercicio25.html) | Agrega nuevos controles al último ejercicio.
 [Ejercicio26](tema1ejercicios/ejercicio26/ejercicio26.html) | Crea una página con un video de tu elección cómo el ejemplo mostrado en w3schools.
 [Ejercicio26Botones](tema1ejercicios/ejercicio26/ejercicio26botones.html) | Añade otro ejemplo con los botones de control tal cómo aparece en el ejemplo del final del mismo artículo.
 [Ejercicio27](tema1ejercicios/ejercicio27/ejercicio27.html) | Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en w3schools.

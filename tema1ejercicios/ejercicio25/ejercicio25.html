@@ -7,22 +7,22 @@
     <body>
         <p><strong>Rellena tu CV</strong></p>
         <form action="action_page.php" method="post" enctype="multipart/form-data">
-            <label for="nombre">Nombre</label><br><br>
-            <input type="text" id="nombre" name="nombre" size="30"><br>
-            <label for="apellidos">Apellidos</label><br><br>
-            <input type="text" id="apellidos" name="apellidos" size="80"><br>
-            <label for="contraseña">Contraseña</label><br><br>
-            <input type="password" id="contraseña" name="contraseña" size="10"><br>
-            <label for="dni">DNI</label><br><br>
-            <input type="text" id="dni" name="dni" size="9"><br>
-            <label for="sexo">Sexo</label><br><br>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" size="30"><br><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" size="80"><br><br>
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" id="contraseña" name="contraseña" size="10"><br><br>
+            <label for="dni">DNI</label><br>
+            <input type="text" id="dni" name="dni" size="9"><br><br>
+            <label for="sexo">Sexo</label><br>
             <input type="radio" id="Hombre" name="sexo" value="Hombre">
-            <label for="Hombre">Hombre</label><br><br>
+            <label for="Hombre">Hombre</label><br>
             <input type="radio" id="Mujer" name="sexo" value="Mujer">
             <label for="Mujer">Mujer</label><br><br>
             <label for="provincia">Provincia</label><br>
             <select id="provincia" name="provincia">
-                <option value="" disabled>Selecciona una provincia</option>
+                <option value="" hidden>Selecciona una provincia</option>
                 <option value="A Coruña">A Coruña</option>
                 <option value="Álava">Álava</option>
                 <option value="Albacete">Albacete</option>
@@ -75,6 +75,39 @@
                 <option value="Zaragoza">Zaragoza</option>
                 <option value="Ceuta">Ceuta</option>
                 <option value="Melilla">Melilla</option>
+            </select><br><br>
+            <label for="fecha-nacimiento">Fecha de nacimiento</label><br>
+            <input type="number" id="dia" name="dia" min="1" max="31" placeholder="Día" style="width: 50px;">
+            de
+            <select id="mes" name="mes">
+                <option value="" hidden>Mes</option>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+            de
+            <input type="number" id="año" name="año" min="1900" max="2025" placeholder="Año" style="width: 70px;"><br><br>
+            <label for="temas">Temas de interés</label><br>
+            <select id="temas" name="temas" size="8">
+                <option value="Administración de base de datos">Administración de base de datos</option>
+                <option value="Análisis y programación">Análisis y programación</option>
+                <option value="Arquitectura">Arquitectura</option>
+                <option value="Calidad">Calidad</option>
+                <option value="ERP, CRM, Business Intelligence">ERP, CRM, Business Intelligence</option>
+                <option value="Ciberseguridad">Ciberseguridad</option>
+                <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+                <option value="Redes y Comunicaciones">Redes y Comunicaciones</option>
+                <option value="Desarrollo Web">Desarrollo Web</option>
+                <option value="Big Data">Big Data</option>
             </select><br><br>
             <label for="foto">Incluir mi foto</label>
             <input type="file" id="foto" name="foto"><br><br>

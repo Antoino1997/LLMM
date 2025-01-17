@@ -6,13 +6,22 @@
 </head>
 <body>   
 <?php
-// Procesar el archivo subido
+// Configurar la carpeta de destino
+$carpetaDestino = "uploads/";
+
+// Verificar si la carpeta existe
+if (!is_dir($carpetaDestino)) {
+    // Si no existe, crearla con permisos 0777 (lectura, escritura y ejecución)
+    mkdir($carpetaDestino, 0777, true);
+}
+
 if (isset($_FILES["foto"])) {
-    // Mover el archivo a la carpeta destino sin validaciones
+    // Procesar el archivo subido
     $nombreArchivo = $_FILES["foto"]["name"];
     $rutaTemporal = $_FILES["foto"]["tmp_name"];
-    $carpetaDestino = "uploads/";
     $rutaDestino = $carpetaDestino . basename($nombreArchivo);
+
+    // Mover el archivo a la carpeta destino
     move_uploaded_file($rutaTemporal, $rutaDestino);
 }
 ?>
@@ -28,7 +37,22 @@ if (isset($_FILES["foto"])) {
 <?php echo "<b>" . $_POST["sexo"] . "</b>"; ?></p>
 <p>Usted es de:
 <?php echo "<b>" . $_POST["provincia"] . "</b>"; ?></p>
-
+<p>Su fecha de nacimiento es:
+<?php 
+$dia = $_POST["dia"];
+$mes = $_POST["mes"];
+$año = $_POST["año"];
+echo "<b>" . $dia . " de " . $mes . " de " . $año . "</b>";
+?>
+<p>El tema de interés seleccionado es:
+<?php 
+if (isset($_POST["temas"])) {
+    echo "<b>" . $_POST["temas"] . "</b>";  
+} else {
+    echo "<b>No se seleccionó ningún tema.</b>";
+}
+?>
+</p>
 <?php
 // Mostrar la foto si se subió correctamente
 if (isset($rutaDestino)) {
