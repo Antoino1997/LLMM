@@ -40,7 +40,7 @@ Ejercicio | Descripción
 [Ejercicio26Botones](tema1ejercicios/ejercicio26/ejercicio26botones.html) | Añade otro ejemplo con los botones de control tal cómo aparece en el ejemplo del final del mismo artículo.
 [Ejercicio27](tema1ejercicios/ejercicio27/ejercicio27.html) | Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en w3schools.
 [Ejercicio28](tema1ejercicios/ejercicio28.html) | Crea una página con un video incrustado de Youtube de tu elección cómo el ejemplo mostrado en w3schools.
-## Página Web
+## Página Web - Primer Trimestre
 Página | Descripción
 ----------|------------
 [Link Página](https://antoino1997.github.io/TrabajoTrimestralAntonio/) | https://antoino1997.github.io/TrabajoTrimestralAntonio/
@@ -51,3 +51,7 @@ Página | Descripción
 [Bibliografía](páginaWeb/bibliografia.html) | Página que contiene todo lo relacionado con el material usado en la creación del contenido del trabajo trimestral.
 [Estilos](páginaWeb/css.css) | Hoja que contiene todos los estilos css usados en el resto de páginas.
 [Scripts](páginaWeb/script.js) | Hoja que contiene todos los scripts (funciones) usados en el resto de páginas.
+## Tema 2 - Ejercicios CSS
+Ejercicio | Descripción
+----------|------------
+[Ejercicio1](tema2ejercicios/ejercicio2/ejercicio2.html) | Crea un documento HTML desde cero con tu CV. Crea una hoja de estilos CSS llamada MyStyle.CSS con los siguientes requisitos.
