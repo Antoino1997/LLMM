@@ -29,3 +29,8 @@ td{
 .curvita{
     font-style: italic;
 }
+th, td, p{
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+}
