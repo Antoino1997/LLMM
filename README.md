@@ -55,3 +55,5 @@ Página | Descripción
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](tema2ejercicios/ejercicio2/ejercicio2.html) | Crea un documento HTML desde cero con tu CV. Crea una hoja de estilos CSS llamada MyStyle.CSS con los siguientes requisitos.
+[Ejercicio4](tema2ejercicios/ejercicio4/ejercicio4.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
+[Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.

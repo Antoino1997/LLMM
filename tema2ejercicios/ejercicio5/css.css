@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+}
+th, td{
+    padding: 5px;
+}
+th.thead{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+}
+th.tfooter{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: normal;
+}
+span{
+    font-size: 14px;
+}
