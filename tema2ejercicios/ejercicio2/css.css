@@ -1,0 +1,46 @@
+body{
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+div{
+    margin-top: 6px;
+    padding: 6px;
+    border: 1px solid black;
+}
+img{
+    float: left;
+}
+.header{
+    background-color: #990000;
+    width: 779px;
+    color: white;
+}
+.nav{
+    background-color: #CCCCCC;
+    width: 779px;
+}
+.content{
+    background-color: #999999;
+    width: 464px;
+    margin-bottom: 6px;
+    float: left;
+}
+.rpanel{
+    background-color: #999999;
+    width: 295px;
+    margin-left: 484px;
+}
+.bold{
+    font-weight: bold;
+    margin: 0;
+}
+.suggestions{
+    margin-top: 0;
+}
+.footer{
+    background-color: #CCCCCC;
+    width: 779px;
+    text-align: center;
+    clear: left;
+}

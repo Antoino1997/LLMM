@@ -1,0 +1,9 @@
+body {
+    background-image: url("img_tree.png");
+    background-repeat: repeat-y;
+    background-position: left;
+    background-attachment: fixed;
+  }
+  h1, p{
+      text-align: right;
+  }
