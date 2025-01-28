@@ -57,5 +57,6 @@ Ejercicio | Descripción
 [Ejercicio1](tema2ejercicios/ejercicio2/ejercicio2.html) | Crea un documento HTML desde cero con tu CV. Crea una hoja de estilos CSS llamada MyStyle.CSS con los siguientes requisitos.
 [Ejercicio2](tema2ejercicios/ejercicio2/ejercicio2.html) | En este ejercicio, tendrá la oportunidad de superar los desafíos de diseñar una página web utilizando CSS. Comenzará con el archivo HTML que aparecerá como el de la izquierda y agregará todo el HTML y CSS necesarios para producir el diseño de la derecha.
 [Ejercicio3](tema2ejercicios/ejercicio3/ejercicio3.html) | Modifica la página de w3schools para que muestre la imagen repetida en el eje y. Además evita que haga scroll. Modifica también la posición de la imagen para que aparezca a la izquierda y el texto a la derecha.
-[Ejercicio4](tema2ejercicios/ejercicio4/ejercicio4.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
-[Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
+[Ejercicio4](tema2ejercicios/ejercicio4/ejercicio4.html) | Modifica la página de w3schools para que muestre un menú horizontal. Modifica el color de todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
+[Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
+[Ejercicio6](tema2ejercicios/ejercicio6/ejercicio6.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
