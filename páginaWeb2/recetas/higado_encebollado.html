@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hígado encebollado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon/carnes.png">
+</head>
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="material-icons-outlined">folder</i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="../index.html">Menu</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="../listacategorias.html" class="sidebar-link">
+                        <i class="material-icons-outlined">menu_book</i>
+                        <span>Lista categorías</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" 
+                    data-bs-target="#recetas" aria-expanded="false" aria-controls="recetas">
+                    <i class="material-icons-outlined">local_dining</i>
+                        <span>Recetas</span>
+                    </a>
+                        <ul id="recetas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-aperitivos" aria-expanded="false" aria-controls="recetas-aperitivos">
+                                <i class="material-icons-outlined">kebab_dining</i>
+                                Aperitivos
+                                </a>
+                                <ul id="recetas-aperitivos" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../aperitivos.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista aperitivos
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="tequeños_de_queso.html" class="sidebar-link">Tequeños de queso</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="quesadillas.html" class="sidebar-link">Quesadillas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canapes_con_aguacate.html" class="sidebar-link">Canapés con aguacate</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="langostinos_al_ajillo.html" class="sidebar-link">Langostinos al ajillo</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="pulpo_a_la_gallega.html" class="sidebar-link">Pulpo a la gallega</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-carnes" aria-expanded="false" aria-controls="recetas-carnes">
+                                <i class="material-icons-outlined">lunch_dining</i>
+                                Carnes
+                                </a>
+                                <ul id="recetas-carnes" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../carnes.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista carnes
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="higado_encebollado.html" class="sidebar-link">Higado encebollado</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ternera_en_salsa.html" class="sidebar-link">Ternera en salsa</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canelones_a_la_catalana.html" class="sidebar-link">Canelones a la catalana</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="costillas_de_ternera_guisadas.html" class="sidebar-link">Costillas de tenera guisadas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="serranito.html" class="sidebar-link">Serranito</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-salsas" aria-expanded="false" aria-controls="recetas-salsas">
+                                <i class="material-icons-outlined">local_cafe</i>
+                                Salsas
+                                </a>
+                                <ul id="recetas-salsas" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../salsas.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista salsas
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_pesto.html" class="sidebar-link">Salsa pesto</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_teriyaki.html" class="sidebar-link">Salsa teriyaki</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_roquefort.html" class="sidebar-link">Salsa roquefort</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="alioli.html" class="sidebar-link">Alioli</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ketchup.html" class="sidebar-link">Kétchup</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../videos.html" class="sidebar-link">
+                        <i class="material-icons-outlined">subscriptions</i>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../calendario.html" class="sidebar-link">
+                        <i class="material-icons-outlined">calendar_month</i>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../contactar.html" class="sidebar-link">
+                        <i class="material-icons-outlined">assignment</i>
+                        <span>Contactar</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="main p-3">
+            <h1 class="maintext">
+                Hígado encebollado
+            </h1>
+            <div class="container recetas text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/higado_encebollado/1.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/higado_encebollado/2.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/higado_encebollado/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Ingredientes:
+                </h5>
+                <ul>
+                    <li>500 g de hígado de res (o cerdo) en filetes</li>
+                    <li>2 cebollas grandes (cortadas en juliana)</li>
+                    <li>3 dientes de ajo (picados finamente)</li>
+                    <li>½ taza de vinagre o jugo de limón (para limpiar el hígado)</li>
+                    <li>½ taza de leche (opcional, para suavizar el sabor)</li>
+                    <li>½ taza de caldo de carne o agua</li>
+                    <li>1 cucharadita de comino en polvo</li>
+                    <li>1 cucharadita de pimentón dulce</li>
+                    <li>Sal y pimienta al gusto</li>
+                    <li>3 cucharadas de aceite de oliva o mantequilla</li>
+                </ul>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Preparación:
+                </h5>
+                <ol>
+                    <li>
+                        Preparar el hígado:
+                        <ul>
+                            <li>Lava los filetes con vinagre o limón y enjuágalos con agua.</li>
+                            <li>Si deseas un sabor más suave, remójalos en leche durante 30 minutos y luego escúrrelos.</li>
+                            <li>Seca con papel absorbente y sazona con sal, pimienta y comino.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cocinar la cebolla:
+                        <ul>
+                            <li>En una sartén grande, calienta 2 cucharadas de aceite o mantequilla a fuego medio.</li>
+                            <li>Sofríe la cebolla y el ajo hasta que estén dorados y caramelizados (unos 10 minutos).</li>
+                            <li>Retira la cebolla y resérvala.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cocinar el hígado:
+                        <ul>
+                            <li>En la misma sartén, agrega una cucharada más de aceite y cocina los filetes de hígado a fuego medio-alto.</li>
+                            <li>Cocina 2-3 minutos por cada lado, evitando que se cocine demasiado (para que no quede seco).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Unir todo y dar sabor:
+                        <ul>
+                            <li>Vuelve a añadir la cebolla a la sartén con el hígado.</li>
+                            <li>Agrega el pimentón y el caldo de carne, mezclando bien. Cocina por 2-3 minutos más para que se integren los sabores.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Servir:
+                        <ul>
+                            <li>Acompaña con arroz, puré de papas o plátano frito.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Consejo:</h5>
+                <ul>
+                    <li>Si prefieres una salsa más espesa, puedes añadir una cucharadita de harina o maicena disuelta en un poco de agua.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../scriptreceta.js"></script>
+</body>
+</html>

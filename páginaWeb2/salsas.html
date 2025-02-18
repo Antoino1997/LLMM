@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salsas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon/salsas.png">
+</head>
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="material-icons-outlined">folder</i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="index.html">Menu</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="listacategorias.html" class="sidebar-link">
+                        <i class="material-icons-outlined">menu_book</i>
+                        <span>Lista categorías</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" 
+                    data-bs-target="#recetas" aria-expanded="false" aria-controls="recetas">
+                    <i class="material-icons-outlined">local_dining</i>
+                        <span>Recetas</span>
+                    </a>
+                        <ul id="recetas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-aperitivos" aria-expanded="false" aria-controls="recetas-aperitivos">
+                                <i class="material-icons-outlined">kebab_dining</i>
+                                Aperitivos
+                                </a>
+                                <ul id="recetas-aperitivos" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="aperitivos.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista aperitivos
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/tequeños_de_queso.html" class="sidebar-link">Tequeños de queso</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/quesadillas.html" class="sidebar-link">Quesadillas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/canapes_con_aguacate.html" class="sidebar-link">Canapés con aguacate</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/langostinos_al_ajillo.html" class="sidebar-link">Langostinos al ajillo</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/pulpo_a_la_gallega.html" class="sidebar-link">Pulpo a la gallega</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-carnes" aria-expanded="false" aria-controls="recetas-carnes">
+                                <i class="material-icons-outlined">lunch_dining</i>
+                                Carnes
+                                </a>
+                                <ul id="recetas-carnes" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="carnes.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista carnes
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/higado_encebollado.html" class="sidebar-link">Higado encebollado</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/ternera_en_salsa.html" class="sidebar-link">Ternera en salsa</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/canelones_a_la_catalana.html" class="sidebar-link">Canelones a la catalana</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/costillas_de_ternera_guisadas.html" class="sidebar-link">Costillas de tenera guisadas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/serranito.html" class="sidebar-link">Serranito</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-salsas" aria-expanded="false" aria-controls="recetas-salsas">
+                                <i class="material-icons-outlined">local_cafe</i>
+                                Salsas
+                                </a>
+                                <ul id="recetas-salsas" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="salsas.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista salsas
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/salsa_pesto.html" class="sidebar-link">Salsa pesto</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/salsa_teriyaki.html" class="sidebar-link">Salsa teriyaki</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/salsa_roquefort.html" class="sidebar-link">Salsa roquefort</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/alioli.html" class="sidebar-link">Alioli</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="recetas/ketchup.html" class="sidebar-link">Kétchup</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="videos.html" class="sidebar-link">
+                        <i class="material-icons-outlined">subscriptions</i>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="calendario.html" class="sidebar-link">
+                        <i class="material-icons-outlined">calendar_month</i>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="contactar.html" class="sidebar-link">
+                        <i class="material-icons-outlined">assignment</i>
+                        <span>Contactar</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="main p-3">
+            <div class="text-center">
+                <h1 class="maintext">
+                    <i class="material-icons-outlined">local_cafe</i><span> Salsas </span><i class="material-icons-outlined">local_cafe</i>
+                </h1>
+            </div>
+            <div id="carouselCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/salsas/salsas1.jpeg" class="d-block w-100" alt="Salsa pesto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="recetas/salsa_pesto.html">Salsa pesto</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/salsas/salsas2.jpg" class="d-block w-100" alt="Salsa teriyaki">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="recetas/salsa_teriyaki.html">Salsa teriyaki</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/salsas/salsas3.webp" class="d-block w-100" alt="Salsa roquefort">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="recetas/salsa_roquefort.html">Salsa roquefort</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/salsas/salsas4.jpg" class="d-block w-100" alt="Alioli">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="recetas/alioli.html">Alioli</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/salsas/salsas5.jpg" class="d-block w-100" alt="Kétchup">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="recetas/ketchup.html">Kétchup</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

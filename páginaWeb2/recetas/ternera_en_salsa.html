@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternera en salsa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon/carnes.png">
+</head>
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="material-icons-outlined">folder</i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="../index.html">Menu</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="../listacategorias.html" class="sidebar-link">
+                        <i class="material-icons-outlined">menu_book</i>
+                        <span>Lista categorías</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" 
+                    data-bs-target="#recetas" aria-expanded="false" aria-controls="recetas">
+                    <i class="material-icons-outlined">local_dining</i>
+                        <span>Recetas</span>
+                    </a>
+                        <ul id="recetas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-aperitivos" aria-expanded="false" aria-controls="recetas-aperitivos">
+                                <i class="material-icons-outlined">kebab_dining</i>
+                                Aperitivos
+                                </a>
+                                <ul id="recetas-aperitivos" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../aperitivos.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista aperitivos
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="tequeños_de_queso.html" class="sidebar-link">Tequeños de queso</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="quesadillas.html" class="sidebar-link">Quesadillas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canapes_con_aguacate.html" class="sidebar-link">Canapés con aguacate</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="langostinos_al_ajillo.html" class="sidebar-link">Langostinos al ajillo</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="pulpo_a_la_gallega.html" class="sidebar-link">Pulpo a la gallega</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-carnes" aria-expanded="false" aria-controls="recetas-carnes">
+                                <i class="material-icons-outlined">lunch_dining</i>
+                                Carnes
+                                </a>
+                                <ul id="recetas-carnes" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../carnes.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista carnes
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="higado_encebollado.html" class="sidebar-link">Higado encebollado</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ternera_en_salsa.html" class="sidebar-link">Ternera en salsa</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canelones_a_la_catalana.html" class="sidebar-link">Canelones a la catalana</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="costillas_de_ternera_guisadas.html" class="sidebar-link">Costillas de tenera guisadas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="serranito.html" class="sidebar-link">Serranito</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-salsas" aria-expanded="false" aria-controls="recetas-salsas">
+                                <i class="material-icons-outlined">local_cafe</i>
+                                Salsas
+                                </a>
+                                <ul id="recetas-salsas" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../salsas.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista salsas
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_pesto.html" class="sidebar-link">Salsa pesto</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_teriyaki.html" class="sidebar-link">Salsa teriyaki</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_roquefort.html" class="sidebar-link">Salsa roquefort</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="alioli.html" class="sidebar-link">Alioli</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ketchup.html" class="sidebar-link">Kétchup</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../videos.html" class="sidebar-link">
+                        <i class="material-icons-outlined">subscriptions</i>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../calendario.html" class="sidebar-link">
+                        <i class="material-icons-outlined">calendar_month</i>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../contactar.html" class="sidebar-link">
+                        <i class="material-icons-outlined">assignment</i>
+                        <span>Contactar</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="main p-3">
+            <h1 class="maintext">
+                Ternera en salsa
+            </h1>
+            <div class="container recetas text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/ternera_en_salsa/1.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/ternera_en_salsa/2.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/carnes/ternera_en_salsa/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Ingredientes:
+                </h5>
+                <ul>
+                    <li>500 g de carne de ternera en trozos</li>
+                    <li>1 cebolla grande (picada en cubos pequeños)</li>
+                    <li>2 dientes de ajo (picados finamente)</li>
+                    <li>1 zanahoria (en rodajas finas)</li>
+                    <li>1 pimiento rojo o verde (opcional, en tiras)</li>
+                    <li>1 tomate maduro (rallado o picado)</li>
+                    <li>1 cucharada de harina (para espesar la salsa)</li>
+                    <li>1 taza de caldo de carne o agua</li>
+                    <li>½ taza de vino tinto o blanco</li>
+                    <li>1 hoja de laurel</li>
+                    <li>1 cucharadita de pimentón dulce</li>
+                    <li>Sal y pimienta al gusto</li>
+                    <li>3 cucharadas de aceite de oliva</li>
+                </ul>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Preparación:
+                </h5>
+                <ol>
+                    <li>
+                        Sellar la carne:
+                        <ul>
+                            <li>En una cazuela o sartén grande, calienta el aceite de oliva a fuego medio-alto.</li>
+                            <li>Añade los trozos de ternera y dóralos por todos lados.</li>
+                            <li>Retira la carne y resérvala.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Preparar el sofrito:
+                        <ul>
+                            <li>En la misma cazuela, añade un poco más de aceite si es necesario y sofríe la cebolla y el ajo hasta que estén dorados.</li>
+                            <li>Agrega la zanahoria y el pimiento, y cocina por 5 minutos.</li>
+                            <li>Añade el tomate rallado y cocina hasta que reduzca.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Incorporar la harina y el vino:
+                        <ul>
+                            <li>Espolvorea la harina y remueve bien para que se mezcle con el sofrito.</li>
+                            <li>Agrega el vino y deja cocinar unos minutos para que el alcohol se evapore.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cocción de la ternera:
+                        <ul>
+                            <li>Vuelve a colocar la carne en la cazuela.</li>
+                            <li>Añade el caldo de carne, el laurel, el pimentón, sal y pimienta.</li>
+                            <li>Cocina a fuego lento durante 60-90 minutos, hasta que la carne esté tierna y la salsa espesa.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Servir:
+                        <ul>
+                            <li>Retira la hoja de laurel y sirve caliente con arroz, puré o pan crujiente.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Consejo:</h5>
+                <ul>
+                    <li>Puedes hacer esta receta en olla express y reducir el tiempo de cocción a unos 30 minutos.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../scriptreceta.js"></script>
+</body>
+</html>

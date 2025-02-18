@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alioli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon/salsas.png">
+</head>
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="material-icons-outlined">folder</i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="../index.html">Menu</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="../listacategorias.html" class="sidebar-link">
+                        <i class="material-icons-outlined">menu_book</i>
+                        <span>Lista categorías</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" 
+                    data-bs-target="#recetas" aria-expanded="false" aria-controls="recetas">
+                    <i class="material-icons-outlined">local_dining</i>
+                        <span>Recetas</span>
+                    </a>
+                        <ul id="recetas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-aperitivos" aria-expanded="false" aria-controls="recetas-aperitivos">
+                                <i class="material-icons-outlined">kebab_dining</i>
+                                Aperitivos
+                                </a>
+                                <ul id="recetas-aperitivos" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../aperitivos.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista aperitivos
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="tequeños_de_queso.html" class="sidebar-link">Tequeños de queso</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="quesadillas.html" class="sidebar-link">Quesadillas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canapes_con_aguacate.html" class="sidebar-link">Canapés con aguacate</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="langostinos_al_ajillo.html" class="sidebar-link">Langostinos al ajillo</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="pulpo_a_la_gallega.html" class="sidebar-link">Pulpo a la gallega</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-carnes" aria-expanded="false" aria-controls="recetas-carnes">
+                                <i class="material-icons-outlined">lunch_dining</i>
+                                Carnes
+                                </a>
+                                <ul id="recetas-carnes" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../carnes.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista carnes
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="higado_encebollado.html" class="sidebar-link">Higado encebollado</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ternera_en_salsa.html" class="sidebar-link">Ternera en salsa</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canelones_a_la_catalana.html" class="sidebar-link">Canelones a la catalana</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="costillas_de_ternera_guisadas.html" class="sidebar-link">Costillas de tenera guisadas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="serranito.html" class="sidebar-link">Serranito</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-salsas" aria-expanded="false" aria-controls="recetas-salsas">
+                                <i class="material-icons-outlined">local_cafe</i>
+                                Salsas
+                                </a>
+                                <ul id="recetas-salsas" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../salsas.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista salsas
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_pesto.html" class="sidebar-link">Salsa pesto</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_teriyaki.html" class="sidebar-link">Salsa teriyaki</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_roquefort.html" class="sidebar-link">Salsa roquefort</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="alioli.html" class="sidebar-link">Alioli</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ketchup.html" class="sidebar-link">Kétchup</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../videos.html" class="sidebar-link">
+                        <i class="material-icons-outlined">subscriptions</i>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../calendario.html" class="sidebar-link">
+                        <i class="material-icons-outlined">calendar_month</i>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../contactar.html" class="sidebar-link">
+                        <i class="material-icons-outlined">assignment</i>
+                        <span>Contactar</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="main p-3">
+            <h1 class="maintext">
+                Alioli
+            </h1>
+            <div class="container recetas text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/alioli/1.webp">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/alioli/2.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/alioli/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Ingredientes (receta tradicional con mortero):
+                </h5>
+                <ul>
+                    <li>2 dientes de ajo</li>
+                    <li>1 pizca de sal</li>
+                    <li>150 ml de aceite de oliva virgen extra</li>
+                    <li>1 cucharadita de jugo de limón o vinagre (opcional)</li>
+                </ul>
+                <h5>
+                    Ingredientes (aliolio con huevo y batidora):
+                </h5>
+                <ul>
+                    <li>1 diente de ajo</li>
+                    <li>1 huevo</li>
+                    <li>200 ml de aceite de girasol (o mezcla con oliva para suavizar el sabor)</li>
+                    <li>1 cucharadita de jugo de limón o vinagre</li>
+                    <li>Sal al gusto</li>
+                </ul>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Preparación (método tradicional en mortero):
+                </h5>
+                <ol>
+                    <li>
+                        Machacar los ajos:
+                        <ul>
+                            <li>Pela los ajos y ponlos en un mortero con la sal.</li>
+                            <li>Machácalos hasta obtener una pasta suave.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Emulsionar con el aceite:
+                        <ul>
+                            <li>Añade el aceite de oliva poco a poco en un hilo fino mientras sigues machacando con movimientos circulares.</li>
+                            <li>Sigue batiendo hasta obtener una textura espesa y cremosa.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Añadir el limón (opcional):
+                        <ul>
+                            <li>Si deseas un toque más suave, agrega unas gotas de limón o vinagre y mezcla bien.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>
+                    Preparación con batidora:
+                </h5>
+                <ol>
+                    <li>En un vaso de batidora, coloca el huevo, el ajo, el aceite, la sal y el limón.</li>
+                    <li>Introduce la batidora hasta el fondo y enciéndela sin moverla durante unos segundos.</li>
+                    <li>Cuando empiece a emulsionar, sube lentamente la batidora hasta integrar todo.</li>
+                    <li>Prueba y ajusta la sal o el limón si es necesario.</li>
+                </ol>
+                <h5>Consejo:</h5>
+                <ul>
+                    <li>Alioli auténtico = sin huevo, solo ajo y aceite.</li>
+                    <li>Alioli rápido = con huevo para una textura más estable.</li>
+                    <li>Puedes guardarlo en la nevera hasta 3 días en un frasco hermético.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../scriptreceta.js"></script>
+</body>
+</html>

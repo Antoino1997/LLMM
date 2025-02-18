@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salsa pesto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon/salsas.png">
+</head>
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button id="toggle-btn" type="button">
+                    <i class="material-icons-outlined">folder</i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="../index.html">Menu</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="../listacategorias.html" class="sidebar-link">
+                        <i class="material-icons-outlined">menu_book</i>
+                        <span>Lista categorías</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" 
+                    data-bs-target="#recetas" aria-expanded="false" aria-controls="recetas">
+                    <i class="material-icons-outlined">local_dining</i>
+                        <span>Recetas</span>
+                    </a>
+                        <ul id="recetas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-aperitivos" aria-expanded="false" aria-controls="recetas-aperitivos">
+                                <i class="material-icons-outlined">kebab_dining</i>
+                                Aperitivos
+                                </a>
+                                <ul id="recetas-aperitivos" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../aperitivos.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista aperitivos
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="tequeños_de_queso.html" class="sidebar-link">Tequeños de queso</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="quesadillas.html" class="sidebar-link">Quesadillas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canapes_con_aguacate.html" class="sidebar-link">Canapés con aguacate</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="langostinos_al_ajillo.html" class="sidebar-link">Langostinos al ajillo</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="pulpo_a_la_gallega.html" class="sidebar-link">Pulpo a la gallega</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-carnes" aria-expanded="false" aria-controls="recetas-carnes">
+                                <i class="material-icons-outlined">lunch_dining</i>
+                                Carnes
+                                </a>
+                                <ul id="recetas-carnes" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../carnes.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista carnes
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="higado_encebollado.html" class="sidebar-link">Higado encebollado</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ternera_en_salsa.html" class="sidebar-link">Ternera en salsa</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="canelones_a_la_catalana.html" class="sidebar-link">Canelones a la catalana</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="costillas_de_ternera_guisadas.html" class="sidebar-link">Costillas de tenera guisadas</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="serranito.html" class="sidebar-link">Serranito</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" 
+                                data-bs-target="#recetas-salsas" aria-expanded="false" aria-controls="recetas-salsas">
+                                <i class="material-icons-outlined">local_cafe</i>
+                                Salsas
+                                </a>
+                                <ul id="recetas-salsas" class="sidebar-dropdown list-unstyled collapse">
+                                    <li class="sidebar-item">
+                                        <a href="../salsas.html" class="sidebar-link">
+                                        <i class="material-icons-outlined">format_list_bulleted</i>
+                                        Lista salsas
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_pesto.html" class="sidebar-link">Salsa pesto</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_teriyaki.html" class="sidebar-link">Salsa teriyaki</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="salsa_roquefort.html" class="sidebar-link">Salsa roquefort</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="alioli.html" class="sidebar-link">Alioli</a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="ketchup.html" class="sidebar-link">Kétchup</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../videos.html" class="sidebar-link">
+                        <i class="material-icons-outlined">subscriptions</i>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../calendario.html" class="sidebar-link">
+                        <i class="material-icons-outlined">calendar_month</i>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="../contactar.html" class="sidebar-link">
+                        <i class="material-icons-outlined">assignment</i>
+                        <span>Contactar</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="main p-3">
+            <h1 class="maintext">
+                Salsa pesto
+            </h1>
+            <div class="container recetas text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/salsa_pesto/1.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/salsa_pesto/2.jpg">
+                    </div>
+                    <div class="col-sm">
+                        <img src="../imagenes/salsas/salsa_pesto/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Ingredientes:
+                </h5>
+                <ul>
+                    <li>50 g de hojas de albahaca fresca (aprox. 2 tazas)</li>
+                    <li>50 g de queso Parmesano o Pecorino rallado</li>
+                    <li>30 g de piñones (puedes sustituir por nueces o almendras)</li>
+                    <li>1 diente de ajo pequeño</li>
+                    <li>100 ml de aceite de oliva virgen extra</li>
+                    <li>Sal al gusto</li>
+                </ul>
+            </div>
+            <div class="container recetas">
+                <h5>
+                    Preparación:
+                </h5>
+                <ol>
+                    <li>
+                        Método tradicional (mortero):
+                        <ul>
+                            <li>En un mortero, machaca el ajo con una pizca de sal hasta hacer una pasta.</li>
+                            <li>Añade los piñones y tritura hasta obtener una pasta cremosa.</li>
+                            <li>Incorpora la albahaca poco a poco, triturando con movimientos circulares hasta que suelte su aroma.</li>
+                            <li>Agrega el queso rallado y sigue mezclando.</li>
+                            <li>Finalmente, vierte el aceite de oliva poco a poco mientras sigues triturando hasta conseguir una salsa homogénea.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Método rápido (batidora o procesador de alimentos):
+                        <ul>
+                            <li>Coloca todos los ingredientes en la batidora o procesador.</li>
+                            <li>Tritura a baja velocidad, añadiendo el aceite poco a poco hasta obtener la textura deseada.</li>
+                            <li>Ajusta la sal si es necesario.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Consejo:</h5>
+                <ul>
+                    <li>No batas demasiado para evitar que la albahaca se caliente y se oxide.</li>
+                    <li>Puedes conservar el pesto en un frasco con una capa de aceite encima para que dure más tiempo en la nevera (hasta 1 semana).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../scriptreceta.js"></script>
+</body>
+</html>
