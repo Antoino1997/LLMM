@@ -74,4 +74,4 @@ página | Descripción
 [Contactar](páginaWeb2/contactar.html) | Página que contiene un formulario y está conectado a su php correspondiente.
 
 Cabe destactar que he hecho un sidebar completamente responsive en lugar de un navbar superior simplemente por estética.
-El sidebar se contrae si el tamaño de la página es inferior a 768px, además de que se imposibilita la función de los dropdown en este estado y además el botón de la carpeta pierde la función de expandir el sidebar y en su lugar te redirige al index.
+El sidebar se contrae si el tamaño de la página es inferior a 768px, además de que se imposibilita la función de los dropdown en este estado y además el botón de la carpeta pierde la función de expandir el sidebar y en su lugar te redirige al index. Todos los links de la página funcionan y los nombres del carrusel son links que te redirigen a su receta correspondiente.
