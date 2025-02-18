@@ -64,11 +64,11 @@ Ejercicio | Descripción
 página | Descripción
 ----------|------------
 [Link Página](https://antoino1997.github.io/TrabajoTrimestral2Antonio/) | https://antoino1997.github.io/TrabajoTrimestral2Antonio/
-[Index](páginaweb2/index.html) | Página principal del trabajo trimestral.
-[Videos](páginaweb2/videos.html) | Página que con contenido multimedia como videos y audios.
-[Calendario](páginaweb2/calendario.html) | Página que contiene un iframe con un calendario de google.
-[Lista Categorias](páginaweb2/listacategorias.html) | Página que contiene una tabla con un estilo striped y con todas las recetas.
-[Aperitivos](páginaweb2/aperitivos.html) | Página que contiene un carrusel con la temática de la página.
-[Carnes](páginaweb2/carnes.html) | Página que contiene un carrusel con la temática de la página.
-[Salsas](páginaweb2/salsas.html) | Página que contiene un carrusel con la temática de la página.
-[Contactar](páginaweb2/contactar.html) | Página que contiene un formulario y está conectado a su php correspondiente.
+[Index](páginaWeb2/index.html) | Página principal del trabajo trimestral.
+[Videos](páginaWeb2/videos.html) | Página que con contenido multimedia como videos y audios.
+[Calendario](páginaWeb2/calendario.html) | Página que contiene un iframe con un calendario de google.
+[Lista Categorias](páginaWeb2/listacategorias.html) | Página que contiene una tabla con un estilo striped y con todas las recetas.
+[Aperitivos](páginaWeb2/aperitivos.html) | Página que contiene un carrusel con la temática de la página.
+[Carnes](páginaWeb2/carnes.html) | Página que contiene un carrusel con la temática de la página.
+[Salsas](páginaWeb2/salsas.html) | Página que contiene un carrusel con la temática de la página.
+[Contactar](páginaWeb2/contactar.html) | Página que contiene un formulario y está conectado a su php correspondiente.
