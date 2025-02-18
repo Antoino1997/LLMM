@@ -60,3 +60,15 @@ Ejercicio | Descripción
 [Ejercicio4](tema2ejercicios/ejercicio4/ejercicio4.html) | Modifica la página de w3schools para que muestre un menú horizontal. Modifica el color de todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
 [Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
 [Ejercicio6](tema2ejercicios/ejercicio6/ejercicio6.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
+## Página Web - Segundo Trimestre
+página | Descripción
+----------|------------
+[Link Página](https://antoino1997.github.io/TrabajoTrimestral2Antonio/) | https://antoino1997.github.io/TrabajoTrimestral2Antonio/
+[Index](páginaweb2/index.html) | Página principal del trabajo trimestral.
+[Videos](páginaweb2/videos.html) | Página que con contenido multimedia como videos y audios.
+[Calendario](páginaweb2/calendario.html) | Página que contiene un iframe con un calendario de google.
+[Lista Categorias](páginaweb2/listacategorias.html) | Página que contiene una tabla con un estilo striped y con todas las recetas.
+[Aperitivos](páginaweb2/aperitivos.html) | Página que contiene un carrusel con la temática de la página.
+[Carnes](páginaweb2/carnes.html) | Página que contiene un carrusel con la temática de la página.
+[Salsas](páginaweb2/salsas.html) | Página que contiene un carrusel con la temática de la página.
+[Contactar](páginaweb2/contactar.html) | Página que contiene un formulario y está conectado a su php correspondiente.
