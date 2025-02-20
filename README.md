@@ -61,7 +61,7 @@ Ejercicio | Descripción
 [Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
 [Ejercicio6](tema2ejercicios/ejercicio6/ejercicio6.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
 ## Página Web - Segundo Trimestre
-página | Descripción
+Página | Descripción
 ----------|------------
 [Link Página](https://antoino1997.github.io/TrabajoTrimestral2Antonio/) | https://antoino1997.github.io/TrabajoTrimestral2Antonio/
 [Index](páginaWeb2/index.html) | Página principal del trabajo trimestral.
@@ -75,3 +75,16 @@ página | Descripción
 
 Cabe destactar que he hecho un sidebar completamente responsive en lugar de un navbar superior simplemente por estética.
 El sidebar se contrae si el tamaño de la página es inferior a 768px, además de que se imposibilita la función de los dropdown en este estado y además el botón de la carpeta pierde la función de expandir el sidebar y en su lugar te redirige al index. Todos los links de la página funcionan y los nombres del carrusel son links que te redirigen a su receta correspondiente.
+## Tema 3 - Ejercicios Javascript
+Ejercicio | Descripción
+----------|------------
+[Ejercicio1](tema3ejercicios/ejercicio1/ejercicio1.html) | Lo básico.
+[Ejercicio2](tema3ejercicios/ejercicio2/ejercicio2.html) | Mostrar mensajes.
+[Ejercicio3](tema3ejercicios/ejercicio3/ejercicio3.html) | Mostrar imagenes con la propiedad "onchange".
+[Ejercicio4](tema3ejercicios/ejercicio4/ejercicio4.html) | Trabajar con variables.
+[Ejercicio5](tema3ejercicios/ejercicio5/ejercicio5.html) | 3 grupos de botones con 3 problemas diferentes.
+[Ejercicio6](tema3ejercicios/ejercicio6/ejercicio6.html) | Aleatoriedad.
+[Ejercicio7](tema3ejercicios/ejercicio7/ejercicio7.html) | Carrusel imagenes.
+[Ejercicio8](tema3ejercicios/ejercicio8/ejercicio8.html) | Calculadora.
+[Ejercicio9](tema3ejercicios/ejercicio9/ejercicio9.html) | Convertir de celcius a Fahrenheit y viceversa.
+[Ejercicio10](tema3ejercicios/ejercicio10/ejercicio10.html) | Batería de ejercicios.
