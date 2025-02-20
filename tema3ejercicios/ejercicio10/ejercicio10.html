@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js" integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js" integrity= "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="ejercicio10.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 10</h1>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que devuelve el mayor de dos números.</p>
+        <label for="n1-2">Número 1: </label>
+        <input type="text" id="n1-2"> <br><br>
+        <label for="n2-2">Número 2: </label>
+        <input type="text" id="n2-2"> <br><br>
+        <button type="button" onclick="mostrarmax2()">Mostrar Máximo</button><br><br>
+        <p id="resultado-2" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que devuelve el mayor de tres números.</p>
+        <label for="n1-3">Número 1: </label>
+        <input type="text" id="n1-3"> <br><br>
+        <label for="n2-3">Número 2: </label>
+        <input type="text" id="n2-3"> <br><br>
+        <label for="n3-3">Número 3: </label>
+        <input type="text" id="n3-3"> <br><br>
+        <button type="button" onclick="mostrarmax3()">Mostrar Máximo</button><br><br>
+        <p id="resultado-3" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que determina si la letra ingresada es una vocal o no.</p>
+        <label for="n-array">Letra: </label>
+        <input type="text" id="inputletra" maxlength="1"> <br><br>
+        <button onclick="mirarvocal()">Comprobar si es una vocal</button>
+        <p id="resultado-letra" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que traduce el texto introducido a Rövarspråket.</p>
+        <label for="traducir">Texto: </label>
+        <input type="text" id="traducir"> <br><br>
+        <button onclick="traducir()">Traduce a Rövarspråket</button>
+        <p id="resultado-traducir" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Funciónes que suman o multiplican un array.</p>
+        <label for="n-array">Numeros separado por ",": </label>
+        <input type="text" id="n-array"> <br><br>
+        <button type="button" onclick="mostrarsumarray()">Mostrar Suma Array</button><br><br>
+        <button type="button" onclick="mostrarmultiplicacionarray()">Mostrar Multiplicación Array</button><br><br>
+        <p id="resultado-array" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que escribe al revés el input que le des.</p>
+        <label for="inputreverso">Texto: </label>
+        <input type="text" id="inputreverso"> <br><br>
+        <button onclick="escribiralreves()">Escribe al revés</button>
+        <p id="resultado-reves" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que ordena alfabéticamente un string.</p>
+        <label for="inputordenar">Palabras separadas por ",": </label>
+        <input type="text" id="inputordenar"> <br><br>
+        <button onclick="ordenar()">Ordena alfabéticamente</button>
+        <p id="resultado-ordenar" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que encuentra la palabra más larga de un string.</p>
+        <label for="inputlargo">Palabras separadas por ",": </label>
+        <input type="text" id="inputlargo"> <br><br>
+        <button onclick="encontrarpalabralarga()">Encontrar la palabra más larga</button>
+        <p id="resultado-palabralarga" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que encuentra las palabras de un string que son más largas que el número introducido.</p>
+        <label for="inputpalabrasmaslargas">Palabras separadas por ",": </label>
+        <input type="text" id="inputpalabrasmaslargas"> <br><br>
+        <label for="inputnumerocomparar">Número: </label>
+        <input type="text" id="inputnumerocomparar"> <br><br>
+        <button onclick="encontrarpalabrasmaslargas()">Encontrar las palabras que son más largas que el número introducido</button>
+        <p id="resultado-palabrasmaslargas" style="padding-bottom: 10px;"></p>
+    </div>
+    <div style="background-color: rgb(30, 30, 30, 0.2); padding-left: 10px;">
+        <p style="padding-top: 10px; margin-top: 0;">Función que encuentra la frecuencia de las palabras usadas en un string.</p>
+        <label for="inputfrecuencia">Caracteres (sin introducir "," o " "): </label>
+        <input type="text" id="inputfrecuencia"> <br><br>
+        <button onclick="encontrarfrecuencia()">Encontrar la frecuencia de las palabras usadas</button>
+        <p id="resultado-frecuencia" style="padding-bottom: 10px;"></p>
+    </div>
+</body>
+</html>

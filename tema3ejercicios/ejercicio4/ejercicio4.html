@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <script>
+        function ejercicio4() {
+            var x = document.getElementById("selectejercicio4").value
+            document.getElementById("demo").innerHTML = "Has seleccionado: " + x;
+        }
+    </script>
+</head>
+<body>
+    <p>Aquí saldrá el número que selecciones</p>
+
+    <select id="selectejercicio4" onchange="ejercicio4()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <p id="demo"></p>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>JavaScript Functions</h2>
+    <p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+    <label for="tbf">Fahrenheit : </label>
+    <input type="text" id="tbf" name="tbf"> 
+    <br><br>
+    <label for="tbc">Celcius : </label>
+    <input type="text" id="tbc" name="tbc"> 
+    <br><br>
+    <button type="button" onclick="muestrac()">Convierte a Celcius</button>
+    <button type="button" onclick="muestraf()">Convierte a Fahrenheit</button> 
+
+    <script>
+        function muestrac() {
+            let f = document.getElementById("tbf").value;
+
+            c = toCelsius(parseFloat(f));
+            document.getElementById("tbc").value = c.toFixed(2);
+        }
+
+        function muestraf() {
+            let c = document.getElementById("tbc").value;
+
+            f = toFahrenheit(parseFloat(c));
+            document.getElementById("tbf").value = f.toFixed(2); 
+        }
+
+        function toCelsius(f) {
+            return (5/9) * (f - 32);
+        }
+
+        function toFahrenheit(c) {
+        return (c * 9/5) + 32;
+        }
+    </script>
+</body>
+</html>

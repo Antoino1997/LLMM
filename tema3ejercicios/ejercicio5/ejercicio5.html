@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <script>
+        function cambiarestilo(nombre) {
+            document.getElementById("cambiarestilo").style.fontFamily = nombre;
+        }
+
+        function cambiarsrc(nombre) {
+            document.getElementById("cambiarsrc").src = nombre;
+        }
+
+        function cambiartexto(nombre) {
+            document.getElementById("cambiartexto").innerHTML = nombre;
+        }
+    </script>
+    <style>
+        div {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="cambiarestilo">ESTO ES UNA PRUEBA PARA CAMBIAR EL ESTILO</p>
+
+        <button type="button" onclick="cambiarestilo('Verdana')">Estilo 1</button>
+        <button type="button" onclick="cambiarestilo('Courier')">Estilo 2</button>
+        <button type="button" onclick="cambiarestilo('Impact')">Estilo 3</button>
+
+        <p>ESTO ES UNA PRUEBA PARA CAMBIAR EL SRC DE UNA IMAGEN</p>
+
+        <img id="cambiarsrc" src="coche1.webp" width="500px" height="300px" /></br>
+
+        <button type="button" onclick="cambiarsrc('coche1.webp')">Coche 1</button>
+        <button type="button" onclick="cambiarsrc('coche2.webp')">Coche 2</button>
+        <button type="button" onclick="cambiarsrc('coche3.webp')">Coche 3</button>
+    </div>
+
+    <div id="cambiartexto">
+
+    </div>
+
+    <div>
+        <button type="button" onclick="cambiartexto('Mensaje 1')">Mensaje 1</button>
+        <button type="button" onclick="cambiartexto('Mensaje 2')">Mensaje 2</button>
+        <button type="button" onclick="cambiartexto('Mensaje 3')">Mensaje 3</button>
+    </div>
+</body>
+</html>
