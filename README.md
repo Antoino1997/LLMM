@@ -78,13 +78,13 @@ El sidebar se contrae si el tamaño de la página es inferior a 768px, además d
 ## Tema 3 - Ejercicios Javascript
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1](tema3ejercicios/ejercicio1/ejercicio1.html) | Lo básico.
-[Ejercicio2](tema3ejercicios/ejercicio2/ejercicio2.html) | Mostrar mensajes.
-[Ejercicio3](tema3ejercicios/ejercicio3/ejercicio3.html) | Mostrar imagenes con la propiedad "onchange".
-[Ejercicio4](tema3ejercicios/ejercicio4/ejercicio4.html) | Trabajar con variables.
-[Ejercicio5](tema3ejercicios/ejercicio5/ejercicio5.html) | 3 grupos de botones con 3 problemas diferentes.
-[Ejercicio6](tema3ejercicios/ejercicio6/ejercicio6.html) | Aleatoriedad.
-[Ejercicio7](tema3ejercicios/ejercicio7/ejercicio7.html) | Carrusel imagenes.
-[Ejercicio8](tema3ejercicios/ejercicio8/ejercicio8.html) | Calculadora.
-[Ejercicio9](tema3ejercicios/ejercicio9/ejercicio9.html) | Convertir de celcius a Fahrenheit y viceversa.
-[Ejercicio10](tema3ejercicios/ejercicio10/ejercicio10.html) | Batería de ejercicios.
+[Ejercicio1](tema3ejerciciosjavascript/ejercicio1/ejercicio1.html) | Lo básico.
+[Ejercicio2](tema3ejerciciosjavascript/ejercicio2/ejercicio2.html) | Mostrar mensajes.
+[Ejercicio3](tema3ejerciciosjavascript/ejercicio3/ejercicio3.html) | Mostrar imagenes con la propiedad "onchange".
+[Ejercicio4](tema3ejerciciosjavascript/ejercicio4/ejercicio4.html) | Trabajar con variables.
+[Ejercicio5](tema3ejerciciosjavascript/ejercicio5/ejercicio5.html) | 3 grupos de botones con 3 problemas diferentes.
+[Ejercicio6](tema3ejerciciosjavascript/ejercicio6/ejercicio6.html) | Aleatoriedad.
+[Ejercicio7](tema3ejerciciosjavascript/ejercicio7/ejercicio7.html) | Carrusel imagenes.
+[Ejercicio8](tema3ejerciciosjavascript/ejercicio8/ejercicio8.html) | Calculadora.
+[Ejercicio9](tema3ejerciciosjavascript/ejercicio9/ejercicio9.html) | Convertir de celcius a Fahrenheit y viceversa.
+[Ejercicio10](tema3ejerciciosjavascript/ejercicio10/ejercicio10.html) | Batería de ejercicios.
