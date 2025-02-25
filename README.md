@@ -88,3 +88,10 @@ Ejercicio | Descripción
 [Ejercicio8](tema3ejerciciosjavascript/ejercicio8/ejercicio8.html) | Calculadora.
 [Ejercicio9](tema3ejerciciosjavascript/ejercicio9/ejercicio9.html) | Convertir de celcius a Fahrenheit y viceversa.
 [Ejercicio10](tema3ejerciciosjavascript/ejercicio10/ejercicio10.html) | Batería de ejercicios.
+## Tema 3 - Ejercicios HTML DOM
+Ejercicio | Descripción
+----------|------------
+[Ejercicio1](tema3ejercicioshtmldom/ejercicio1/ejercicio1.html) | Crea una página web que contenga varios párrafos. Mediante Javascript accede al DOM y muestra el contenido de dichos párrafos en un div.
+[Ejercicio2](tema3ejercicioshtmldom/ejercicio2/ejercicio2.html) | Crea una página y mediante Javascript agrega imagen a un div.
+[Ejercicio3](tema3ejercicioshtmldom/ejercicio3/ejercicio3.html) | Crea una página con una lista y borra los elementos de dicha lista.
+[Ejercicio4](tema3ejercicioshtmldom/ejercicio4/ejercicio4.html) | Usando la consola del navegador muestra: título, imágenes y los enlaces de una página de tu elección.
