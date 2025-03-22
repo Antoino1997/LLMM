@@ -60,6 +60,8 @@ Ejercicio | Descripción
 [Ejercicio4](tema2ejercicios/ejercicio4/ejercicio4.html) | Modifica la página de w3schools para que muestre un menú horizontal. Modifica el color de todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
 [Ejercicio5](tema2ejercicios/ejercicio5/ejercicio5.html) | Modifica el código en W3Schools para obtener la siguiente tabla.
 [Ejercicio6](tema2ejercicios/ejercicio6/ejercicio6.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
+[Ejercicio7](tema2ejercicios/ejercicio7/Ejercicio7.pdf) | En grupo observa las siguientes ejercicios y explica las propiedades que se han utilizado para el posicionamiento de los diferentes elementos que componen la página.
+[Ejercicio8](tema2ejercicios/ejercicio8/Ejercicio8.pdf) | En grupo observa las siguientes ejercicios y explica las propiedades que se han utilizado para el posicionamiento de los diferentes elementos que componen la página.
 ## Página Web - Segundo Trimestre
 Página | Descripción
 ----------|------------
