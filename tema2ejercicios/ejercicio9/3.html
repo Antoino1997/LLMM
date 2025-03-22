@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuadrados Posicionados Absolutamente</title>
+        <style>
+            .contenedor {
+                position: relative;
+                width: 500px;
+                height: 300px;
+                background-color: lightgray;
+                border: 2px solid black;
+                margin: 20px auto;
+            }
+
+            .cuadrado {
+                position: absolute;
+                width: 100px;
+                height: 200px;
+                font-size: 50px;
+            }
+
+            .verde {
+                background-color: green;
+                color: black;
+                top: 50px;
+                left: 50px;
+            }
+
+            .amarillo {
+                background-color: yellow;
+                color: black;
+                top: 50px;
+                left: 150px;
+            }
+
+            .rojo {
+                background-color: red;
+                color: black;
+                top: 50px;
+                left: 250px;
+            }
+
+            .azul {
+                background-color: blue;
+                color: black;
+                top: 50px;
+                left: 350px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <div class="cuadrado verde">1</div>
+            <div class="cuadrado amarillo">2</div>
+            <div class="cuadrado rojo">3</div>
+            <div class="cuadrado azul">4</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuadrados Posicionados Absolutamente</title>
+        <style>
+            .contenedor {
+                position: relative;
+                width: 500px;
+                height: 300px;
+                background-color: lightgray;
+                border: 2px solid black;
+                margin: 20px auto;
+            }
+
+            .cuadrado1 {
+                position: absolute;
+                width: 250px;
+                height: 150px;
+                font-size: 50px;
+            }
+
+            .cuadrado2 {
+                position: absolute;
+                width: 150px;
+                height: 125px;
+                font-size: 50px;
+            }
+
+            .cuadrado3 {
+                position: absolute;
+                width: 175px;
+                height: 150px;
+                font-size: 50px;
+            }
+
+            .cuadrado4 {
+                position: absolute;
+                width: 250px;
+                height: 100px;
+                font-size: 50px;
+            }
+
+            .azul {
+                background-color: blue;
+                color: black;
+                top: 10px;
+                left: 100px;
+            }
+
+            .verde {
+                background-color: green;
+                color: black;
+                top: 100px;
+                left: 50px;
+            }
+
+            .amarillo {
+                background-color: yellow;
+                color: black;
+                top: 50px;
+                left: 275px;
+            }
+
+            .rojo {
+                background-color: red;
+                color: black;
+                top: 175px;
+                left: 150px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <div class="cuadrado1 azul">1</div>
+            <div class="cuadrado2 verde">2</div>
+            <div class="cuadrado3 amarillo">3</div>
+            <div class="cuadrado4 rojo">4</div>
+        </div>
+    </body>
+</html>
