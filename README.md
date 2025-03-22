@@ -62,6 +62,7 @@ Ejercicio | Descripción
 [Ejercicio6](tema2ejercicios/ejercicio6/ejercicio6.html) | Crea una tabla. Diseña su tabla de colores para que se vea como en el enunciado.
 [Ejercicio7](tema2ejercicios/ejercicio7/Ejercicio7.pdf) | En grupo observa las siguientes ejercicios y explica las propiedades que se han utilizado para el posicionamiento de los diferentes elementos que componen la página.
 [Ejercicio8](tema2ejercicios/ejercicio8/Ejercicio8.pdf) | En grupo observa las siguientes ejercicios y explica las propiedades que se han utilizado para el posicionamiento de los diferentes elementos que componen la página.
+[Ejercicio9](tema2ejercicios/ejercicio9/1.html) | Usa posicionamiento absoluto y resuelve los siguientes ejercicios.
 ## Página Web - Segundo Trimestre
 Página | Descripción
 ----------|------------
