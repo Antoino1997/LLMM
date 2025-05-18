@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CDList>
+    <CD serial="B6B41B" disc-length="36:55">
+        <name>Greatest Hits</name>
+        <artist>The Band</artist>
+        <year>2023</year>
+        <category>Pop</category>
+        <tracklist>
+            <track number="1" duration="3:30">
+                <title>Hit Song 1</title>
+            </track>
+            <track number="2" duration="4:10">
+                <title>Hit Song 2</title>
+            </track>
+            <track number="3" duration="5:00">
+                <title>Hit Song 3</title>
+            </track>
+        </tracklist>
+        <comment><!-- This CD has more tracks than in this file --></comment>
+    </CD>
+</CDList>

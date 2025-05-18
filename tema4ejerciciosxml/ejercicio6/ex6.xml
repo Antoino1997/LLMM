@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<letter>
+    <sender>
+        <name>John Doe</name>
+        <address>1234 Elm Street, Springfield, IL</address>
+        <email>johndoe@example.com</email>
+    </sender>
+    <receiver>
+        <name>Jane Smith</name>
+        <address>5678 Oak Avenue, Springfield, IL</address>
+        <email>janesmith@example.com</email>
+    </receiver>
+    <date>2025-05-18</date>
+    <body>
+        <greeting>Dear Jane Smith,</greeting>
+        <content>
+            I hope this letter finds you well. I am writing to discuss our upcoming marketing strategies for Q3.
+        </content>
+    </body>
+    <signature>
+        <name>John Doe</name>
+        <position>Marketing Manager</position>
+    </signature>
+</letter>

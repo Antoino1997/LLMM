@@ -1,0 +1,27 @@
+Error 1:
+Anidación incorrecta de <extension> dentro de las etiquetas <president> y <secretary>.
+Corrección:
+<extension> debe ser una etiqueta separada anidada dentro de <president> o <secretary>. Las etiquetas de apertura y cierre no están emparejadas correctamente.
+
+Error 2:
+<extension> no está cerrado correctamente antes de cerrar las etiquetas <president> o <secretary>.
+Corrección:
+Cerrar <extension> primero, luego cerrar <president> o <secretary>.
+
+Error 3:
+Los valores de texto como "Bill Gates" o "Katharine Finch" están mezclados con las etiquetas de manera incorrecta.
+Corrección:
+Encerrar el nombre y la extensión en una estructura anidada correctamente.
+
+Error 4:
+El primer bloque <company> (Microsoft) es seguido directamente por <president> y <secretary>, que no están agrupados dentro de un <company>.
+Corrección:
+Cada compañía debe encapsular todos los datos relacionados: <cname>, <exchange>, <president>, <secretary>.
+
+Error 5:
+Uso incorrecto de las comillas en la declaración XML (opcional, pero asegurar consistencia).
+Corrección:
+Usar comillas simples o dobles de manera consistente (estándar: comillas dobles).
+
+Resumen:
+Agrupar todos los datos relacionados con la compañía dentro de un bloque <company> y asegurar una correcta anidación de todas las etiquetas hijas.

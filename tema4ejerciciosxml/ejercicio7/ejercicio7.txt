@@ -1,0 +1,18 @@
+A. What do comments look like in XML? (section 2.5)
+
+<!-- Comentario -->
+
+B. Can an attribute be repeated in the same element? (section 3.1)
+
+No, un atributo no puede repetirse en el mismo elemento. Según la Sección 3.1 de la Recomendación W3C de XML 1.0:
+Los atributos deben tener nombres únicos dentro de un elemento. No puedes definir el mismo nombre de atributo más de una vez en el mismo elemento.
+Si intentas repetir un atributo, esto resultará en un error en el documento XML.
+
+C. Where is it stated that the element names in opening and closing tags must match?
+
+Se establece en la Sección 3.2 de la Recomendación W3C de XML 1.0, que define la estructura de los elementos. Dice lo siguiente:
+"Un elemento consta de una etiqueta de apertura, contenido y una etiqueta de cierre. El nombre del elemento debe ser el mismo en la etiqueta de apertura y en la de cierre."
+
+<elemento>Contenido</elemento>
+
+La etiqueta de apertura es <elemento> y la de cierre es </elemento>, y deben coincidir exactamente, incluyendo la sensibilidad a mayúsculas y minúsculas.

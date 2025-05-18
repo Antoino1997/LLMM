@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<email>
+    <from>
+        <name>Simon North</name>
+        <email>north@synopsys.com</email>
+    </from>
+    <to>
+        <name>Nick</name>
+        <email>sintac@xs4all.nl</email>
+    </to>
+    <subject>Hi</subject>
+    <body>
+        <message>Hi Nick, this is just a quick message to say I got the material. Thanks.</message>
+    </body>
+</email>

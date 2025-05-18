@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+
+<publication>
+    <newsitem>
+        <source>
+            <agency>STT</agency>
+            <editor>Miller</editor>
+        </source>
+        <class>local</class>
+        <article>
+            <heading>Snowstorms in Lappland</heading>
+            <text>snow.html</text>
+            <summary>snowx.html</summary>
+        </article>
+    </newsitem>
+</publication>
