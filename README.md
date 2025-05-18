@@ -101,7 +101,7 @@ Ejercicio | Descripción
 ## Tema 4 - Ejercicio XML
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1 Pregunta 1]() | 
-[Ejercicio1 Pregunta 2]() | 
-[Ejercicio1 Pregunta 3]() | 
+[Ejercicio1 Pregunta 1](tema4ejerciciosxml/ejercicio1/pregunta1.xml) | How should an element with the name test element and the content "This is our first element!" look?
+[Ejercicio1 Pregunta 2](tema4ejerciciosxml/ejercicio1/pregunta2.xml) | Por favor, muestra (en sintaxis XML) la jerarquía del elemento libro con los subelementos capítulos y autor. El autor tiene los subelementos nombre y dirección.
+[Ejercicio1 Pregunta 3](tema4ejerciciosxml/ejercicio1/pregunta3.xml) | ¿Cómo debería lucir un elemento con el nombre entry que tiene 2 atributos: no con el valor 24 y date con el valor 27.10.2004?
 [Ejercicio2]() | 
