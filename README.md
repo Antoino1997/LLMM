@@ -98,3 +98,10 @@ Ejercicio | Descripción
 [Ejercicio2](tema3ejercicioshtmldom/ejercicio2/ejercicio2.html) | Crea una página y mediante Javascript agrega imagen a un div.
 [Ejercicio3](tema3ejercicioshtmldom/ejercicio3/ejercicio3.html) | Crea una página con una lista y borra los elementos de dicha lista.
 [Ejercicio4](tema3ejercicioshtmldom/ejercicio4/ejercicio4.html) | Usando la consola del navegador muestra: título, imágenes y los enlaces de una página de tu elección.
+## Tema 4 - Ejercicio XML
+Ejercicio | Descripción
+----------|------------
+[Ejercicio1]() | 
+[Ejercicio2]() | 
+[Ejercicio3]() | 
+[Ejercicio4]() | 
